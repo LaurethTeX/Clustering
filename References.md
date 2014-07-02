@@ -5,3 +5,4 @@ Comparation of other softwares
 Review on Clustering 
 ------------------------------
 [Review on Clustering in Data Mining](http://dame.dsf.unina.it/documents/brescia_clusteringSurvey_DAME-NA-PRE-0031.pdf) made by the guys on the DAME project.
+[Data Mining Challenges and Opportunities in Astronomy](http://www.astro.caltech.edu/~george/vo/dmastro.pdf) what S. G. Djorgovski says at Caltech about the potential of clustering!
