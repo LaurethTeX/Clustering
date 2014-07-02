@@ -1,6 +1,8 @@
 Important concepts
 =================
 
+Astroinformatics:
+
 Machine Learning:
 
 Data Mining:
@@ -8,3 +10,5 @@ Data Mining:
 Clustering:
 
 FITS table:
+
+Neural Network:
