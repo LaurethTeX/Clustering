@@ -1,11 +1,8 @@
 Clustering
 ==========
-
 Clustering multi-wavelength data for Astronomy
-
 ==========
 Contents
-==========
 
 1. Important concepts
 2. Where to look
