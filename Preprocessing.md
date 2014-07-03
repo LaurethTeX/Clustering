@@ -19,7 +19,7 @@ For this step I recommend [ImageCube](https://github.com/sophiathl/imagecube.git
 Find resolutions of all the FITS files (FWHM)
 ----------------- 
 We must calculate the [Full width at half maximum](http://mathworld.wolfram.com/FullWidthatHalfMaximum.html) (FWHM) value for each image, since the standard deviation is needed we use the [numpy.std](http://docs.scipy.org/doc/numpy/reference/generated/numpy.std.html#numpy-std) function.
-  ```
+  ```python
 import numpy as np
 import pyfits
 
