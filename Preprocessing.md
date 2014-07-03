@@ -22,17 +22,23 @@ Get ImageCube running
 2. Install [monotage_wrapper](http://www.astropy.org/montage-wrapper/)
   $ pip install montage-wrapper
 3. Make sure runs properly
-  $ ipython
-  $ >>> import montage_wrapper as montage
-  $ >>> montage.mArchiveList('2MASS', 'K', 'm31', 0.5, 0.5, 'm31.tbl')
-  $ count : 18
-  $ stat : OK
+  ```
+  ipython
+  >>> import montage_wrapper as montage
+  >>> montage.mArchiveList('2MASS', 'K', 'm31', 0.5, 0.5, 'm31.tbl')
+  count : 18
+  stat : OK
+  ```
 4. In your terminal go to
-  $ cd /../..*file location*../imagecube
+  ```
+   cd /../..*file location*../imagecube
+  ```
 5. Try typing
-  $ ipython
-  $ >>>  import imagecube
-If nothing happens means everything is going allright but if you get a message like,
+  ```
+  ipython
+  >>>  import imagecube
+  ```
+If nothing happens means everything is going alright but if you get a message like,
   ```
   ---------------------------------------------------------------------------
   ImportError                               Traceback (most recent call last)
