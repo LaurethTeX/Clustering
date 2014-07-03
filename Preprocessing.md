@@ -49,8 +49,20 @@ print "The FWHM values for WFC3 ERS M83 Data"
 for x in range(0, 8):
     print "Band[%d] = %f" % (x,fwhm[x])
   ```
+Therefore, the results are
+  ```
+The FWHM values for WFC3 ERS M83 Data
+Band[0] = 0.576949
+Band[1] = 0.216682
+Band[2] = 0.101427
+Band[3] = 1.355655
+Band[4] = 0.301944
+Band[5] = 0.193643
+Band[6] = 0.152420
+Band[7] = 0.367107
+  ```
+Since these values are **not** equal the next step will be to convolve so we can get images with common PSF.
 
- 
 Get ImageCube running
 -----------------
 1. Clone in desktop the [ImageCube](https://github.com/sophiathl/imagecube.git) GitHub repository
