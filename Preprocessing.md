@@ -20,7 +20,9 @@ Get ImageCube running
 -----------------
 1. Clone in desktop the [ImageCube](ttps://github.com/sophiathl/imagecube.git) GitHub repository
 2. Install [monotage_wrapper](http://www.astropy.org/montage-wrapper/)
-  $ pip install montage-wrapper
+  ```
+  pip install montage-wrapper
+  ```
 3. Make sure runs properly
   ```
   ipython
