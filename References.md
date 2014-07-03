@@ -11,8 +11,8 @@ Review on Clustering
 Review on Preprocessing
 ------------------------------
 To learn more about how convolution works read the paper [Common-Resolution Convolution Kernels for Space- and Ground-Based Telescopes](http://arxiv.org/pdf/1106.5065v2.pdf), if you want a less technical approach here ase some webpages with a lecture point of view,
-  *[Image formation, Deconvolution & PSF fitting Photometry](http://exoplanet.as.arizona.edu/~lclose/a302/lecture9/Lecture_9.html)
-  *[Convolution](http://homepages.inf.ed.ac.uk/rbf/HIPR2/convolve.htm)
+  - [Image formation, Deconvolution & PSF fitting Photometry](http://exoplanet.as.arizona.edu/~lclose/a302/lecture9/Lecture_9.html)
+  - [Convolution](http://homepages.inf.ed.ac.uk/rbf/HIPR2/convolve.htm)
 
 Got tired....?
 ------------------------------
