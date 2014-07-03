@@ -19,21 +19,27 @@ For this step I recommend [ImageCube](https://github.com/sophiathl/imagecube.git
 Get ImageCube running
 -----------------
 1. Clone in desktop the [ImageCube](ttps://github.com/sophiathl/imagecube.git) GitHub repository
-2. Install [monotage_wrapper](http://www.astropy.org/montage-wrapper/)
+2. Install [montage_wrapper](http://www.astropy.org/montage-wrapper/)
   ```
+
   pip install montage-wrapper
+
   ```
 3. Make sure runs properly
   ```
+
   ipython
   >>> import montage_wrapper as montage
   >>> montage.mArchiveList('2MASS', 'K', 'm31', 0.5, 0.5, 'm31.tbl')
   count : 18
   stat : OK
+  
   ```
 4. In your terminal go to
   ```
+
    cd /../..*file location*../imagecube
+   
   ```
 5. Try typing
   ```
