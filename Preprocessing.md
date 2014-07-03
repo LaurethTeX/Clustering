@@ -20,11 +20,12 @@ Get ImageCube running
 -----------------
 1. Clone in desktop the [ImageCube](https://github.com/sophiathl/imagecube.git) GitHub repository
 2. Install [montage_wrapper](http://www.astropy.org/montage-wrapper/)
-  ```
 
+  ```
   pip install montage-wrapper
   ```
 3. Make sure montage-wrapper runs properly
+
   ```
   ipython
   >>> import montage_wrapper as montage
@@ -33,16 +34,19 @@ Get ImageCube running
   stat : OK
   ```
 4. In your terminal go to,
-  ```
 
+  ```
    cd /../..*file location*../imagecube
   ```
 5. Try typing
+
   ```
   ipython
   >>>  import imagecube
   ```
+  
 If nothing happens means everything is going alright but if you get a message like,
+
   ```
   ---------------------------------------------------------------------------
   ImportError                               Traceback (most recent call last)
@@ -51,4 +55,5 @@ If nothing happens means everything is going alright but if you get a message li
   
   ImportError: No module named imagecube
   ```
+  
 means something went wrong, review the former steps, if you can't solve the problem post an issue at GitHub.
