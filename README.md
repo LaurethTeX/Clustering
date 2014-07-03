@@ -11,4 +11,4 @@ Contents
 5. Results
 6. Conclusions
 
- -Where to look... [References](https://github.com/LaurethTeX/Clustering/blob/master/References.md)
+ **Where to look... [References](https://github.com/LaurethTeX/Clustering/blob/master/References.md)**
