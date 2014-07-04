@@ -16,7 +16,9 @@ For this step I recommend [ImageCube](https://github.com/sophiathl/imagecube.git
  Imagecube processes multi-wavelength astronomical imaging datasets, performing conversion to common flux units,
  registration to a common WCS, convolution to a common angular resolution, and regridding to a specified pixel size.
  
-Find resolutions of all the FITS files (FWHM) **Sure Andrea... this section is WRONG!**
+Find resolutions of all the FITS files (FWHM)
+
+**Sure Andrea... this section is WRONG!**
 ----------------- 
 We must calculate the [Full width at half maximum](http://mathworld.wolfram.com/FullWidthatHalfMaximum.html) (FWHM) value for each image, since the standard deviation is needed we use the [numpy.std](http://docs.scipy.org/doc/numpy/reference/generated/numpy.std.html#numpy-std) function.
   ```python
