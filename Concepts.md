@@ -4,7 +4,7 @@ Important concepts
 Astroinformatics
 -----------------
 I'd say that is the compuer science approach of Astronomy, everything related to applying "informatics" concepts to Astronomy, those can be data mining, machine learning, image processing, statistics.. etc etc.
-This is were engineers can help astronomers to make their life full of discoveries!
+This is were computer science engineers can help astronomers to make their life full of discoveries!
 
 The objetive here is to find valuable information hidden in all those terabytes of information.
 
@@ -24,4 +24,7 @@ FITS table
 -----------------
 
 Neural Network
+-----------------
+
+Point Spread Function (PSF)
 -----------------
