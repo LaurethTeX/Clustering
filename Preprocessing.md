@@ -20,9 +20,14 @@ Find resolutions of all the FITS files (FWHM)
 ----------------- 
 First of all, is recomendable to remind your knowledge about convolution and learn about PSF, [here](http://www.jstor.org/stable/pdfplus/10.1086/662219.pdf?acceptTC=true) you will find a helpful paper.
 
+The strategy here is to look for your particular instrument information, in this case I'm looking for the WFC3 UVIS channel which is in [this](http://www.stsci.edu/institute/org/telescopes/Reports/ISR-TEL-2010-01) document.
+
+*Where you look?*
+
+Check out the pages of the institutes who made your instrument, look for published papers in online databases like [The SAO/NASA Astrophysics Data System](http://adsabs.harvard.edu/abstract_service.html) or [Astro-ph](http://arxiv.org/archive/astro-ph).
 
 
-Generate convolution kernels
+Generate PSF convolution kernels
 ----------------- 
 The Space Telescope Science Institute provides a marvellous sofwtare called [Tiny Tim](http://www.stsci.edu/hst/observatory/focus/TinyTim), here you can select your specific data parameters like camera and filter and the software will generate the PSF kernel you need.
 
