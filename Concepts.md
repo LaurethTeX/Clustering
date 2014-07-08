@@ -22,6 +22,9 @@ Clustering
 
 FITS table
 -----------------
+It is a file that does conform to FITS standard but instead of containing information of an image is a binary dataset, therefore you cannot read the file as usual in DS9, for example [here](http://dr10.sdss3.org/spectrumDetail?mjd=55359&fiber=408&plateid=4055) you will find an Optical Spectrum Detail.
+
+For more information and cool functions, click [here](https://pythonhosted.org/pyfits/users_guide/users_table.html), for the PyFITS table section.
 
 Neural Network
 -----------------
