@@ -86,4 +86,4 @@ You must also make sure that you have already installed *Astropy*, *Numpy*, *Sci
 Missing data
 ---------------
 In our data, as you can see in the image bellow 
-<img src="uvwide-gray.jpg" alt="uvwide" style="width: 10000px;"/>
+<img src="uvwide-gray.jpg" alt="uvwide" style="width: 0.50px;"/>
