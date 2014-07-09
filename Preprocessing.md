@@ -86,4 +86,3 @@ You must also make sure that you have already installed *Astropy*, *Numpy*, *Sci
 Missing data
 ---------------
 In our data, as you can see in the image bellow 
-<iframe src="//instagram.com/p/pFmPoSoaIG/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
