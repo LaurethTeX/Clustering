@@ -86,4 +86,4 @@ You must also make sure that you have already installed *Astropy*, *Numpy*, *Sci
 Missing data
 ---------------
 In our data, as you can see in the image bellow 
-<img src="uvwide-gray.jpg" alt="uvwide" style="width: 0.50px;"/>
+<a href="url"><img src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/uvwide-gray.jpg" align="left" height="48" width="48" ></a>
