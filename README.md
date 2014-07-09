@@ -6,7 +6,7 @@ Contents
 ----------
 1. [Important concepts](https://github.com/LaurethTeX/Clustering/blob/master/Concepts.md)
 2. [Data Preprocessing](https://github.com/LaurethTeX/Clustering/blob/master/Preprocessing.md)
-3. Clustering Methods
+3. [Clustering Methods](https://github.com/LaurethTeX/Clustering/blob/master/Methods.md)
 4. Tests
 5. Results
 6. Conclusions
