@@ -88,4 +88,6 @@ Missing data
 In our data, as you can see in the image bellow it's an image made by mosaics and in some parts we have missing data.
 
 
-<a href="url"><img src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/uvwide-gray.jpg" align="center" height="300" ></a>
+<a href="url"><img src="https://github.com/LaurethTeX/Clustering/blob/master/dosN.jpg" align="center" height="300" ></a>
+<a href="url"><img src="https://github.com/LaurethTeX/Clustering/blob/master/dos.jpg" align="center" height="300" ></a>
+<a href="url"><img src="https://github.com/LaurethTeX/Clustering/blob/master/uno.jpg" align="center" height="300" ></a>
