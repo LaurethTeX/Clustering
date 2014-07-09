@@ -88,5 +88,5 @@ Missing data
 In our data, as you can see in the image bellow it's an image made by mosaics and in some parts we have missing data.
 
 
-<a href="url"><img src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/unoN.jpg" align="left" height="170" width="100" ></a>
+<a href="url"><img src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/unoN.jpg" align="left" height="510" width="300" ></a>
 
