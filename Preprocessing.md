@@ -81,3 +81,8 @@ If nothing happens means everything is going alright but if you get a message li
 means something went wrong, review the former steps, if you can't solve the problem post an issue at GitHub.
 
 You must also make sure that you have already installed *Astropy*, *Numpy*, *SciPy* and *Matplotlib* if not review the section [Tools](https://github.com/LaurethTeX/Clustering/blob/master/Tools.md) of this repository.
+
+
+Missing data
+---------------
+In our data, as you can see in the image bellow ![uvwide](https://www.dropbox.com/s/9z77f3ivstjuies/uvwide-gray.jpg)
