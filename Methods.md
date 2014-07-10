@@ -59,7 +59,7 @@ And we get this RGB image,
 Now we are ready to input on MATLAB our image.
 > Full code can be found [here](https://github.com/LaurethTeX/Clustering/blob/master/TestMATLAB.m)
 
-### Read Image
+#### Read Image on MATLAB
 
 Read in `RGBsample.jpg`, which is a sample of WFC3 ERS M83 Data Products with three wavelenghts.
 
@@ -73,22 +73,44 @@ text(size(RGBsample,2),size(RGBsample,1)+15,...
 ```
 <html>
 <body>
-<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/fig1.png" alt="uvwide" width="221" height="221">
+<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/fig1.png" alt="uvwide" width="255" height="229">
 <html>
 <body>
-### Convert Image from RGB Color Space to `L*a*b*` Color Space
+#### Convert Image from RGB Color Space to `L*a*b*` Color Space
 The `L*a*b*` space consists of a luminosity layer `L*`, chromaticity-layer `a*` indicating where color falls along the red-green (in this particular case *Iband-Hbeta*) axis, and chromaticity-layer `b*` indicating where the color falls along the blue-yellow (*UVwide-Hbeta*) axis. All of the color information is in the `a*` and `b*` layers. You can measure the difference between two colors using the Euclidean distance metric.
 ```matlab
 cform = makecform('srgb2lab');
 lab_RGBsample = applycform(RGBsample,cform);
 ```
-### Classify the Colors in `a*b*` Space Using K-Means Clustering
+#### Classify the Colors in `a*b*` Space Using K-Means Clustering
+Clustering is a way to separate groups of objects. K-means clustering treats each object as having a location in space. It finds partitions such that objects within each cluster are as close to each other as possible, and as far from objects in other clusters as possible.
+Since the color information exists in the `a*b*` space, your objects are pixels with `a*` and `b*` values. Use kmeans to cluster the objects into three clusters using the Euclidean distance metric.
+```matlab
+ab = double(lab_RGBsample(:,:,2:3));
+nrows = size(ab,1);
+ncols = size(ab,2);
+ab = reshape(ab,nrows*ncols,2);
 
-### Label Every Pixel in the Image Using the Results from KMEANS
+nColors = 3;
+% repeat the clustering 3 times to avoid local minima
+[cluster_idx, cluster_center] = kmeans(ab,nColors,'distance','sqEuclidean', ...
+                                      'Replicates',3);
+```
+#### Label Every Pixel in the Image Using the Results from KMEANS
+For every object in your input, kmeans returns an index corresponding to a cluster. The `cluster_center` output from kmeans will be used later in the example. Label every pixel in the image with its `cluster_index`.
+```matlab
+pixel_labels = reshape(cluster_idx,nrows,ncols);
+imshow(pixel_labels,[]), title('image labeled by cluster index');
+```
+<html>
+<body>
+<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/allcluster.png" alt="uvwide" width="510" height="458">
+<html>
+<body>
 
-### Create Images that Segment the H&E Image by Color
+#### Create Images that Segment the H&E Image by Color
 
-### Segment the Nuclei into a Separate Image
+#### Segment the Nuclei into a Separate Image
 
 
 ...and I have now idea if this makes sense...
