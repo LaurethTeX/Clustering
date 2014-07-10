@@ -126,4 +126,4 @@ imshow(segmented_images{3}), title('objects in cluster 3');
 
 <body>
 
-**...and I have now idea if this makes sense... :confounded:**
+**...and I have no idea if this makes sense... :confounded:**
