@@ -57,11 +57,31 @@ And we get this RGB image,
 <body>
 
 Now we are ready to input on MATLAB our image.
+> Full code can be found [here](https://github.com/LaurethTeX/Clustering/blob/master/TestMATLAB.m)
 
 ### Read Image
 
-### Convert Image from RGB Color Space to `L*a*b*` Color Space
+Read in `RGBsample.jpg`, which is a sample of WFC3 ERS M83 Data Products with three wavelenghts.
 
+```matlab
+figure(1)
+RGBsample = imread('RGBsample.jpg');
+imshow(RGBsample),title('Messier-83');
+text(size(RGBsample,2),size(RGBsample,1)+15,...
+    'WFC3 ERS M83 DATA, http://archive.stsci.edu/prepds/wfc3ers/m83datalist.htm$
+    'Fontsize',7,'HorizontalAlignment','right');
+```
+<html>
+<body>
+<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/fig1.png" alt="uvwide" width="221" height="221">
+<html>
+<body>
+### Convert Image from RGB Color Space to `L*a*b*` Color Space
+The `L*a*b*` space consists of a luminosity layer `L*`, chromaticity-layer `a*` indicating where color falls along the red-green (in this particular case *Iband-Hbeta*) axis, and chromaticity-layer `b*` indicating where the color falls along the blue-yellow (*UVwide-Hbeta*) axis. All of the color information is in the `a*` and `b*` layers. You can measure the difference between two colors using the Euclidean distance metric.
+```matlab
+cform = makecform('srgb2lab');
+lab_RGBsample = applycform(RGBsample,cform);
+```
 ### Classify the Colors in `a*b*` Space Using K-Means Clustering
 
 ### Label Every Pixel in the Image Using the Results from KMEANS
