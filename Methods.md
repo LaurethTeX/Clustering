@@ -73,7 +73,7 @@ text(size(RGBsample,2),size(RGBsample,1)+15,...
 ```
 <html>
 <body>
-<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/fig1.png" alt="uvwide" width="255" height="229">
+<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/fig1.png" alt="uvwide" width="510" height="458">
 <html>
 <body>
 #### Convert Image from RGB Color Space to `L*a*b*` Color Space
@@ -127,7 +127,7 @@ imshow(segmented_images{3}), title('objects in cluster 3');
 <html>
 <body>
 
-<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/cluster1.png" alt="uvwide" width="306" height="275">&nbsp;<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/cluster2.png" alt="uvwide" width="306" height="275">&nbsp;<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/cluster3.png" alt="uvwide" width="306" height="275">
+<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/cluster1.png" alt="uvwide" width="510" height="458">&nbsp;<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/cluster2.png" alt="uvwide" width="510" height="458">&nbsp;<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/cluster3.png" alt="uvwide" width="510" height="458">
 
 <body>
 
