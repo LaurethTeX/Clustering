@@ -108,9 +108,26 @@ imshow(pixel_labels,[]), title('image labeled by cluster index');
 <html>
 <body>
 
-#### Create Images that Segment the H&E Image by Color
+#### Create Images that Segment the RGB sample Image by Color
+Using `pixel_labels`, you can separate objects in `RGBsample.jpg` by color, which will result in three images.
+```matlab
+segmented_images = cell(1,3);
+rgb_label = repmat(pixel_labels,[1 1 3]);
 
-#### Segment the Nuclei into a Separate Image
+for k = 1:nColors
+    color = RGBsample;
+    color(rgb_label ~= k) = 0;
+    segmented_images{k} = color;
+end
 
+imshow(segmented_images{1}), title('objects in cluster 1');
+imshow(segmented_images{2}), title('objects in cluster 2');
+imshow(segmented_images{3}), title('objects in cluster 3');
+```
+<html>
+<body>
+<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/cluster1.png" alt="uvwide" width="510" height="458"><img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/cluster2.png" alt="uvwide" width="510" height="458"><img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/cluster3.png" alt="uvwide" width="510" height="458">
+<html>
+<body>
 
 ...and I have now idea if this makes sense...
