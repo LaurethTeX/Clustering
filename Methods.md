@@ -126,7 +126,7 @@ imshow(segmented_images{3}), title('objects in cluster 3');
 ```
 <html>
 <body>
-<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/cluster1.png" alt="uvwide" width="510" height="458"><img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/cluster2.png" alt="uvwide" width="510" height="458"><img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/cluster3.png" alt="uvwide" width="510" height="458">
+<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/cluster1.png" alt="uvwide" width="255" height="229">&nbsp;<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/cluster2.png" alt="uvwide"width="255" height="229">&nbsp;<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/cluster3.png" alt="uvwide" width="255" height="229">
 <html>
 <body>
 
