@@ -1,3 +1,8 @@
+%Code was copied and edited from MATHWORKS examples
+%http://www.mathworks.com/help/images/examples/color-based-segmentation-using-k-means-clustering.html?prodcode=IP&language=en
+%Edited by: Andrea Hidalgo
+%July 10th, 2014
+
 figure(1)
 RGBsample = imread('RGBsample.jpg');
 imshow(RGBsample),title('Messier-83'); 
