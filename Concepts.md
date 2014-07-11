@@ -31,3 +31,7 @@ Neural Network
 
 Point Spread Function (PSF)
 -----------------
+
+H II region
+-----------------
+A region of interstellar gas that has been ionized by UV radiation from nearby hot massive stars.
