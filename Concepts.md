@@ -8,12 +8,16 @@ This is were computer science engineers can provide powerful tools to astronomer
 
 The objetive here is to find valuable information hidden in terabytes of information.
 
-Machine Learning
+To achieve this the Astroinformatics uses Machine Learning and Data Mining techniques.
+
+Machine Learning (Supervised Learning)
 -----------------
 Is the set of techniques for interpreting data by comparing them to models for data behavior, they are often called inference techniques, data-based statistical inferences, or just plain old "fitting".
-This kind of techinques are oriented to make the machine "learn" about the input data and from that infere, predict and estimate patterns.
+This kind of techinques are oriented to make the machine "learn" about the input data and from that infere, predict and estimate patterns. 
 
-Data Mining
+**Prediction of one variable based on the other variables**
+
+Data Mining (Unsupervised Learning)
 -----------------
 **“The non-trivial act of identifying valid, novel, potentially useful, and ultimately understandable patterns in data”**
 
@@ -22,6 +26,10 @@ Data Mining
 **Data Mining is about what the data themselves are telling us.**
 
 > Fragment extracted from the data mining definition in the Statistics, Data Mining, and Machine Learning in Astronomy [book](http://press.princeton.edu/titles/10159.html) 
+
+Probability Density Function
+-------------------
+Is a function that describes the relative likelihood for a random variable to take on a given value. The probability of the random variable falling within a particular range of values is given by the integral of this variable’s density over that range—that is, it is given by the area under the density function but above the horizontal axis and between the lowest and greatest values of the range. The probability density function is nonnegative everywhere, and its integral over the entire space is equal to one.
 
 Clustering
 -----------------
