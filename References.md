@@ -17,6 +17,7 @@ To learn more about how convolution works read the paper [Common-Resolution Conv
 Review on Astroinformatics
 ------------------------------
 [Machine learning](http://dame.dsf.unina.it/machine_learning.html#mlpga)
+[IVOA KDD-IG: A user guide for Data Mining in Astronomy](http://wiki.ivoa.net/twiki/bin/view/IVOA/IvoaKDDguide)
 
 DAMEWARE User Documentation Package
 ------------------------------
