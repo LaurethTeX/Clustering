@@ -31,6 +31,10 @@ Probability Density Function
 -------------------
 Is a function that describes the relative likelihood for a random variable to take on a given value. The probability of the random variable falling within a particular range of values is given by the integral of this variable’s density over that range—that is, it is given by the area under the density function but above the horizontal axis and between the lowest and greatest values of the range. The probability density function is nonnegative everywhere, and its integral over the entire space is equal to one.
 
+Cosmological principle
+-----------------
+The (testable) assumption that the same physical laws that apply here and now also apply everywhere and at all times, and that there are no special locations or directions in the universe.
+
 Clustering
 -----------------
 
