@@ -5,11 +5,12 @@ Clustering multi-wavelength data for Astronomy
 Contents
 ----------
 1. [Important concepts](https://github.com/LaurethTeX/Clustering/blob/master/Concepts.md)
-2. [Data Preprocessing](https://github.com/LaurethTeX/Clustering/blob/master/Preprocessing.md)
-3. [Clustering Methods](https://github.com/LaurethTeX/Clustering/blob/master/Methods.md)
-4. Tests
-5. Results
-6. Conclusions
+2. [Selected Data](https://github.com/LaurethTeX/Clustering/blob/master/Data.md) 
+3. [Data Preprocessing](https://github.com/LaurethTeX/Clustering/blob/master/Preprocessing.md)
+4. [Clustering Methods](https://github.com/LaurethTeX/Clustering/blob/master/Methods.md)
+5. Tests
+6. Results
+7. Conclusions
 
 
 **Where to look... [References](https://github.com/LaurethTeX/Clustering/blob/master/References.md)**
