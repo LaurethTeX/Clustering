@@ -11,7 +11,7 @@ The electromagnetic (EM) spectrum is the range of all types of EM radiation. Rad
 <body>
 Electromagnetic radiation can be described in terms of a stream of mass-less particles, called photons, each traveling in a wave-like pattern at the speed of light. Each photon contains a certain amount of energy. The different types of radiation are defined by the the amount of energy found in the photons. Radio waves have photons with low energies, microwave photons have a little more energy than radio waves, infrared photons have still more, then visible, ultraviolet, X-rays, and, the most energetic of all, gamma-rays.
 
-More information, [here](http://imagine.gsfc.nasa.gov/docs/science/know_l1/emspectrum.html)
+**More information about the electromagnetic spectrum can be found [here](http://imagine.gsfc.nasa.gov/docs/science/know_l1/emspectrum.html)**
 
 The selected images which we will be working with are in this wavelenths.
 
@@ -36,4 +36,14 @@ Pivot lambda-p | 235.9 nm
 Width | 46.7 nm
 Peak System Throughout |  0.10
 
-More information about this filter can be found [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/appendixA06.html#309086) and [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/c06_uvis06.html#370890)
+More information about this specific filter can be found in the intrument's handbook [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/appendixA06.html#309086) and [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/c06_uvis06.html#370890).
+
+### UV Interstellar objects 
+
+* **Neutral atomic gas**
+  * Observed in optical and UV adsoption lines of various elements towards bright background stars
+  * Organized in cold (≃100K) diffuse HI clouds (cold neutral medium, CNM) and warm (≈8000 K) intercloud gas (warm neutral medium, WNM)
+  ![Neutral atomic medium](https://raw.githubusercontent.com/LaurethTeX/Clustering/master/scale600x330plane8q50.jpg)
+Image of neutral, atomic hydrogen gas towards the constellation Perseus - courtesy of the Canadian Galactic Plane Survey.
+* **Ionized gas:**
+* **Coronal gas:**
