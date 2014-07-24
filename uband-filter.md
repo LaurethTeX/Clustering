@@ -25,15 +25,12 @@ More information about this specific filter can be found in the intrument's hand
 
  The *u* band is located entirely below the Balmer discontinuity, and above the region of the atmospheric cut off and it is wide enough to fill most of the region between these two wavelengths. With the *uvb* band information it is possible to calculate the *c1* index, therefore measure the Balmer Discontinuity and calculate the temperature (hence instrinsic colour) for hotter stars than those where the discontinuity is at a maximun (about spectral type A2), and to measure absolute magnitude (surface gravity) for those stars cooler that the maximun.
  
- <html>
-<body>
-
-<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/Stromgren.jpg" alt="uvwide">&nbsp;<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/09396a3943b101c93166909470bec4dfd30c5699/transm-voll.gif" alt="uvwide">
-
-<html>
-<body>
+ ![Stromgren](https://raw.githubusercontent.com/LaurethTeX/Clustering/09396a3943b101c93166909470bec4dfd30c5699/transm-voll.gif)
  
  From a combination of the Strömgren filters, we also get a measure of the star's age, through stellar evolution model calibrations.
+ 
+ ![EVO](https://raw.githubusercontent.com/LaurethTeX/Clustering/d41731fcb0ac7b227426379028fedf77fdc5e109/evolutionarytracks.jpg)
+ ![m55](https://raw.githubusercontent.com/LaurethTeX/Clustering/d41731fcb0ac7b227426379028fedf77fdc5e109/m55-evolutionarytracks.jpg)
  
  For detailed information about the Strömgren filters, click [here](http://www.optecinc.com/pdf/stromgren_tutorial.pdf)
  
