@@ -38,7 +38,7 @@ Peak System Throughout |  0.10
 
 More information about this specific filter can be found in the intrument's handbook [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/appendixA06.html#309086) and [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/c06_uvis06.html#370890).
 
-### UV Interstellar objects 
+### UV Interstellar objects and components of the interstellar medium
 
 * **Neutral atomic gas**
   * Observed in optical and UV adsoption lines of various elements towards bright background stars
@@ -47,5 +47,10 @@ More information about this specific filter can be found in the intrument's hand
   ![Neutral atomic medium](https://raw.githubusercontent.com/LaurethTeX/Clustering/master/scale600x330plane8q50.jpg)
 
   *Image of neutral, atomic hydrogen gas towards the constellation Perseus - courtesy of the Canadian Galactic Plane Survey.*
-* **Ionized gas:**
-* **Coronal gas:**
+* **Ionized gas**
+  * Diffuse ionized gas in the ISM can be traced through dispersion of pulsar signals, through optical and UV ionic absorption lines against background sources, and through emission in the Halpha recombination line.
+  * UV tracing can only be done in a limited number of selected sight-lines.
+  ![Pelican](https://raw.githubusercontent.com/LaurethTeX/Clustering/master/Pelican_Nebula.jpg)
+  *A transition region where interstellar gas changes from a mostly neutral state to a mostly ionized state. Ionization fronts are typically found in the vicinity of hot stars and define the extent to which stellar ultraviolet has ionized the material around them.*
+  More information related to this image can be found [here](http://www.daviddarling.info/encyclopedia/I/ionization_front.html).
+* **Coronal gas**
