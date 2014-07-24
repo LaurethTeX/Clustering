@@ -29,7 +29,7 @@ Correspons to the UVIS/F225W filter
 The WFC3 UVIS optics and CCDs have been optimized for UV imaging. As such, the UV filters play a key role and considerable effort has been made to procure filters with the best possible characteristics, including maximum throughput, maximum out-of-band blocking, and minimal ghosts.
 The UV filters include the shortest-wavelength F218W, intended for studies of the ISM absorption feature; the wide F225W and F275W for broad-band UV imaging; the Strömgren u (F336W) and Washington C (F390W) for stellar astrophysics; the extremely wide F300X for very deep imaging; and narrow bands such as F280N (Mg II) and the quad filters FQ232N and FQ243N (C II] and [Ne IV]).
 
-Characteristics | 
+Characteristics | Value
 ------------ | -----------
 Spectrum | Not visible
 Pivot lambda-p | 235.9 nm
