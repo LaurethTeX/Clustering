@@ -47,10 +47,15 @@ More information about this specific filter can be found in the intrument's hand
   ![Neutral atomic medium](https://raw.githubusercontent.com/LaurethTeX/Clustering/master/scale600x330plane8q50.jpg)
 
   *Image of neutral, atomic hydrogen gas towards the constellation Perseus - courtesy of the Canadian Galactic Plane Survey.*
+  
 * **Ionized gas**
   * Diffuse ionized gas in the ISM can be traced through dispersion of pulsar signals, through optical and UV ionic absorption lines against background sources, and through emission in the Halpha recombination line.
   * UV tracing can only be done in a limited number of selected sight-lines.
+ 
   ![Pelican](https://raw.githubusercontent.com/LaurethTeX/Clustering/master/Pelican_Nebula.jpg)
+
   *A transition region where interstellar gas changes from a mostly neutral state to a mostly ionized state. Ionization fronts are typically found in the vicinity of hot stars and define the extent to which stellar ultraviolet has ionized the material around them.*
+  
   More information related to this image can be found [here](http://www.daviddarling.info/encyclopedia/I/ionization_front.html).
+  
 * **Coronal gas**
