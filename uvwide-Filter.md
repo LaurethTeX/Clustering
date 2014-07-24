@@ -32,7 +32,7 @@ More information about this specific filter can be found in the intrument's hand
 
   *A transition region where interstellar gas changes from a mostly neutral state to a mostly ionized state. Ionization fronts are typically found in the vicinity of hot stars and define the extent to which stellar ultraviolet has ionized the material around them.*
   
-  More information related to this image can be found [here](http://www.daviddarling.info/encyclopedia/I/ionization_front.html).
+  **More information related to this image can be found [here](http://www.daviddarling.info/encyclopedia/I/ionization_front.html).**
   
 * **Coronal gas**
   * Hot (∼105–106 K) gas can be traced through UV absorption lines of highly ionized species (e.g., CIV, SVI, NV, OVI) seen against bright background sources. 
@@ -42,4 +42,4 @@ More information about this specific filter can be found in the intrument's hand
 
   *This image is a false color picture of ultraviolet light emitted by the hot gas that comprises the coronal loops. Ultraviolet light is invisible to the human eye, but detectable by the special instruments on board TRACE. White represents the brightest ultraviolet light.*
   
-  More information realted to this image can be found [here](http://www.drdoak.com/personal/pastpics.htm)
+  **More information realted to this image can be found [here](http://www.drdoak.com/personal/pastpics.htm)**
