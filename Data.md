@@ -43,9 +43,9 @@ More information about this specific filter can be found in the intrument's hand
 * **Neutral atomic gas**
   * Observed in optical and UV adsoption lines of various elements towards bright background stars
   * Organized in cold (≃100K) diffuse HI clouds (cold neutral medium, CNM) and warm (≈8000 K) intercloud gas (warm neutral medium, WNM)
-  * 
+
   ![Neutral atomic medium](https://raw.githubusercontent.com/LaurethTeX/Clustering/master/scale600x330plane8q50.jpg)
 
-*Image of neutral, atomic hydrogen gas towards the constellation Perseus - courtesy of the Canadian Galactic Plane Survey.*
+  *Image of neutral, atomic hydrogen gas towards the constellation Perseus - courtesy of the Canadian Galactic Plane Survey.*
 * **Ionized gas:**
 * **Coronal gas:**
