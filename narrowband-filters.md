@@ -32,7 +32,17 @@ UV radiation produced by young, massive stars shortward of 730 Å is sufficient 
 
 More information about the OII emision line can be found [here](http://www.ucolick.org/~simard/phd/root/node21.html) and [here](http://ned.ipac.caltech.edu/level5/Kron/Kron2_6.html).
 
-## Hβ
+## The Balmer emision lines
+
+The Balmer series or Balmer lines in atomic physics, is the designation of one of a set of six different named series describing the spectral line emissions of the hydrogen atom. The Balmer series is characterized by the electron transitioning from n ≥ 3 to n = 2, where n refers to the radial quantum number or principal quantum number of the electron. The transitions are named sequentially by Greek letter: n = 3 to n = 2 is called H-α, 4 to 2 is H-β, 5 to 2 is H-γ, and 6 to 2 is H-δ.
+
+The spectral classification of stars, which is primarily a determination of surface temperature, is based on the relative strength of spectral lines, and the Balmer series in particular are very important. Other characteristics of a star that can be determined by close analysis of its spectrum include surface gravity (related to physical size) and composition.
+
+Balmer lines can appear as absorption or emission lines in a spectrum, depending on the nature of the object observed. In stars, the Balmer lines are usually seen in absorption, and they are "strongest" in stars with a surface temperature of about 10,000 kelvin (spectral type A). In the spectra of most spiral and irregular galaxies, AGNs, H II regions and planetary nebulae (PNe).
+
+More information the Balmer emission lines can be found [here](http://en.wikipedia.org/wiki/Balmer_series).
+
+### Hβ
 Corresponds to the Hβ 4861 filter.
 
 Characteristics | Value
@@ -46,6 +56,35 @@ Minimum *cz* | -1252 Km/sec
 Maximum *cz* | 2448 Km/sec
 
 More information about the Hβ filter can be found [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/appendixA23.html#319989).
+
+
+### Hα + [N II]
+Corresponds to the Wide Hα + [N II] filter.
+
+Characteristics | Value
+------------ | -----------
+  Spectrum | Visile/Orange
+Pivot lambda-p | 656.7 nm
+Width | 12.1 nm
+Peak System Throughout |  0.26
+Line Rest Wavelength | 656.3 nm
+Minimum *cz* | -2709 Km/sec
+Maximum *cz* | 2818 Km/sec
+
+More information about the Hα + [N II] filter can be found [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/appendixA34.html#400138).
+
+#### Hα + [N II] Interstellar objects and components of the interstellar medium
+A red spectral line, at a wavelength of 6563 Å (656.3 nanometers), emitted by a hydrogen atom when its electron falls from the third lowest energy level (n=3) to the second lowest energy level (n=2). The same line appears in absorption when electrons are raised from n=2 to n=3. 
+
+<html>
+<body>
+
+<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/dcb08b2cd6fcd249851939465644f0af979a635f/Bohr-atom-PAR.png" alt="halpha" width="294" height="256">&nbsp;<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/dcb08b2cd6fcd249851939465644f0af979a635f/H-alpha.jpg" alt="uvwide">
+<html>
+<body>
+
+
+More information about the Hα emission line can be found [here](http://www.daviddarling.info/encyclopedia/H/H-alpha.html).
 
 ## OIII
 Corresponds to the [O III] 5007 filter.
@@ -61,21 +100,6 @@ Minimum *cz* | -1754 Km/sec
 Maximum *cz* | 2138 Km/sec
 
 More information about the OIII filter can be found [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/appendixA24.html#346675).
-
-## Hα + [N II]
-Corresponds to the Wide Hα + [N II] filter.
-
-Characteristics | Value
------------- | -----------
-  Spectrum | Visile/Orange
-Pivot lambda-p | 656.7 nm
-Width | 12.1 nm
-Peak System Throughout |  0.26
-Line Rest Wavelength | 656.3 nm
-Minimum *cz* | -2709 Km/sec
-Maximum *cz* | 2818 Km/sec
-
-More information about the Hα + [N II] filter can be found [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/appendixA34.html#400138).
 
 ## SII
 Corresponds to the [S II] 6717/6731 filter.
