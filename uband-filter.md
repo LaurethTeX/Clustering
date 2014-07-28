@@ -11,7 +11,7 @@ Pivot lambda-p | 335.5 nm
 Width | 51.1 nm
 Peak System Throughout |  0.20
 
-More information about this specific filter can be found in the intrument's handbook [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/appendixA10.html#310067) and [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/c06_uvis06.html#370890).
+More information about the U-band filter can be found in the intrument's handbook [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/appendixA10.html#310067).
 
 ## U-band Interstellar objects and components of the interstellar medium
  We can find neutral atomic gas, ionized gas and coronal gas, the same as the [UV  wide filter](https://github.com/LaurethTeX/Clustering/blob/master/uvwide-Filter.md#uv-interstellar-objects-and-components-of-the-interstellar-medium).
