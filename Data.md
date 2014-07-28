@@ -23,12 +23,15 @@ UV wide, U-Band, OII, B-Band, H-beta, OIII, H-Alpha and NII, SII, I-Band
 
 <html>
 <body>
-### [UV wide filter](https://github.com/LaurethTeX/Clustering/blob/master/uvwide-Filter.md)
-### [U-band (Stromgren u)](https://github.com/LaurethTeX/Clustering/blob/master/uband-filter.md)
-### [O II](https://github.com/LaurethTeX/Clustering/blob/master/oii-filter.md)
-### [B-band (WFPC2 B)]()
+### [UV Filters](https://github.com/LaurethTeX/Clustering/blob/master/uv-filters.md)
+<!-- ### [UV wide filter](https://github.com/LaurethTeX/Clustering/blob/master/uvwide-Filter.md)
+### [U-band (Stromgren u)](https://github.com/LaurethTeX/Clustering/blob/master/uband-filter.md) -->
+### [Narrow-Band Filters]()
+<!-- ### [O II](https://github.com/LaurethTeX/Clustering/blob/master/oii-filter.md) -->
+<!--### [B-band (WFPC2 B)]()
 ### [H-beta]()
 ### [O III]()
 ### [Wide H-alpha and N II]()
-### [S II]()
-### [I-band (WFPC2 I)]()
+### [S II]() 
+### [I-band (WFPC2 I)]()-->
+### [Wide-Band Filters]()
