@@ -30,18 +30,14 @@ UV radiation produced by young, massive stars shortward of 730 Å is sufficient 
 
 More information about the OII emision line can be found [here](http://www.ucolick.org/~simard/phd/root/node21.html) and [here](http://ned.ipac.caltech.edu/level5/Kron/Kron2_6.html).
 
-## The Balmer emision lines
+### The Balmer emision lines
 
 We have two filters with there characteristics, the Hβ and the Hα + [N II].
 
 The Balmer series or Balmer lines in atomic physics, is the designation of one of a set of six different named series describing the spectral line emissions of the hydrogen atom. The Balmer series is characterized by the electron transitioning from n ≥ 3 to n = 2, where n refers to the radial quantum number or principal quantum number of the electron. The transitions are named sequentially by Greek letter: n = 3 to n = 2 is called H-α, 4 to 2 is H-β, 5 to 2 is H-γ, and 6 to 2 is H-δ.
 
-<html>
-<body>
-
 <img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/dcb08b2cd6fcd249851939465644f0af979a635f/Bohr-atom-PAR.png" alt="halpha" width="294" height="256">&nbsp;<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/dcb08b2cd6fcd249851939465644f0af979a635f/H-alpha.jpg" alt="uvwide">
-<html>
-<body>
+
 
   In the images you appreciate a red spectral line, at a wavelength of 6563 Å (656.3 nanometers), emitted by a hydrogen atom when its electron falls from the third lowest energy level (n=3) to the second lowest energy level (n=2). The same line appears in absorption when electrons are raised from n=2 to n=3. 
 
@@ -51,7 +47,7 @@ Balmer lines can appear as absorption or emission lines in a spectrum, depending
 
 More information the Balmer emission lines can be found [here](http://en.wikipedia.org/wiki/Balmer_series).
 
-### Hα + [N II]
+## Hα + [N II]
 Corresponds to the Wide Hα + [N II] filter.
 
 Characteristics | Value
@@ -68,7 +64,7 @@ More information about the Hα + [N II] filter can be found [here](http://www.st
 
 More information about the Hα emission line can be found [here](http://www.daviddarling.info/encyclopedia/H/H-alpha.html).
 
-### Hβ
+## Hβ
 Corresponds to the Hβ 4861 filter.
 
 Characteristics | Value
@@ -107,16 +103,19 @@ This wavelengths are located in the visual spectrum and are associated with ener
 
 ![Optical](https://raw.githubusercontent.com/LaurethTeX/Clustering/4b0e6683a00befb726af7d8f5aa145dac90a84c3/galactic_w44-optical.jpg)
 
-    In this image we can see the Milky Way where the yellow represents the near-infrared observations of Hubble. [Here](http://chandra.harvard.edu/photo/2009/galactic/) you will find more information about it.
+  In this image we can see the Milky Way where the yellow represents the near-infrared observations of Hubble. [Here](http://chandra.harvard.edu/photo/2009/galactic/) you will find more information about it.
     
-These wavelengths are usually realted to each other in order to get rates and calculations from them and extract characteristics from the following regions.
+These wavelengths are usually related to each other in order to get rates and calculations from them and extract characteristics from the following regions.
 
-* HII regions
+* **HII regions**
     * The best signpost for star formation regions are so-called HII regions. "HII" stands for ionized hydrogen. Once a massive star is formed it evaporates the remaining gas/dust cloud around it and starts bombarding the surrounding regions with UV photons with sufficient energy to knock the electron free of the hydrogen atoms. When the e- recombines with another H atom, the e- cascades down through the energy levels and the atom emits several photons. The most commonly emitted photon is the one when the e- drops from the 2nd excited level to the 1st - this is the "Hα" line in the red part of the spectrum.
     * To indenfity them the Hα emission line is the strongest but is also too broad that includes PNe so combinations of wavelenght rates (i.e. [SII]/[OIII]) are used to narrow the data.
-* Neutral Atomic Gas (see [UV filters](https://github.com/LaurethTeX/Clustering/blob/master/uv-filters.md))
-* Ionized Gas (see [UV filters](https://github.com/LaurethTeX/Clustering/blob/master/uv-filters.md))
-* Planetary Nebulae (PNe)
+    
+    <img src="https://raw.githubusercontent.com/LaurethTeX/Clustering/4b0e6683a00befb726af7d8f5aa145dac90a84c3/HII_region.jpg">&nbsp;<img src="https://raw.githubusercontent.com/LaurethTeX/Clustering/4b0e6683a00befb726af7d8f5aa145dac90a84c3/Som_4_07_p0b.jpg" width="292" height="281">&nbsp;<img src="https://raw.githubusercontent.com/LaurethTeX/Clustering/4b0e6683a00befb726af7d8f5aa145dac90a84c3/star_form4.gif">
+    
+* **Neutral Atomic Gas** (see [UV filters](https://github.com/LaurethTeX/Clustering/blob/master/uv-filters.md))
+* **Ionized Gas** (see [UV filters](https://github.com/LaurethTeX/Clustering/blob/master/uv-filters.md))
+* **Planetary Nebulae (PNe)**
     * Emit strong in [OII]
     * 
 
