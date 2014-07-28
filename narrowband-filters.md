@@ -113,11 +113,16 @@ These wavelengths are usually related to each other in order to get rates and ca
     
     <img src="https://raw.githubusercontent.com/LaurethTeX/Clustering/4b0e6683a00befb726af7d8f5aa145dac90a84c3/HII_region.jpg">&nbsp;<img src="https://raw.githubusercontent.com/LaurethTeX/Clustering/4b0e6683a00befb726af7d8f5aa145dac90a84c3/Som_4_07_p0b.jpg" width="292" height="281">&nbsp;<img src="https://raw.githubusercontent.com/LaurethTeX/Clustering/4b0e6683a00befb726af7d8f5aa145dac90a84c3/star_form4.gif">
     
+* **Planetary Nebulae (PNe)**
+    * Is an object created during the final stages of the life of a star whose birth mass was between 1 and 8 solar masses. The wispy, colorful halo of gas making up the nebula and surrounding the dying star is actually material that was originally part of the star itself but has been cast off and is expanding outward into interstellar space. It glows as the result of being heated by the ultraviolet radiation produced by the dying star.
+    * Emission Lines Identified in Planetary Nebulae are [OII], [OIII], [SII] and [NII]. [Reference](http://laserstars.org/data/nebula/identification.html)
+    
+![pne](https://github.com/LaurethTeX/Clustering/blob/7d73c9a45a1605137daa4ef0be62df53dd1759f7/pn_spectrum.gif)
+
+    To learn more about PNe click [here](http://web.williams.edu/Astronomy/research/PN/nebulae/nebulaegallery.php0) and [here](http://www.ucolick.org/~bolte/AY4_00/week7/low-mass_deathC.html).
+* **Supernovae remnants (SNRe)***
 * **Neutral Atomic Gas** (see [UV filters](https://github.com/LaurethTeX/Clustering/blob/master/uv-filters.md))
 * **Ionized Gas** (see [UV filters](https://github.com/LaurethTeX/Clustering/blob/master/uv-filters.md))
-* **Planetary Nebulae (PNe)**
-    * Emit strong in [OII]
-    * 
 
 ## SII
 Corresponds to the [S II] 6717/6731 filter.
@@ -133,5 +138,3 @@ Minimum *cz* | -847 Km/sec
 Maximum *cz* | 4413 Km/sec
 
 More information about the SII filter can be found [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/appendixA37.html#316132).
-
-### Star formation
