@@ -5,7 +5,7 @@ Cosmological emission lines can be detected across a range of redshifts within t
 
 More information about the narrow-band filter can be found [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/c06_uvis06.html#376600)
 
-For our purposes we have information from 5 narrow-band filter and is listed below,
+For our purposes we have information from 5 narrow-band filters and is listed below,
 
 ## OII
 Corresponds to the [O II] 3726/3728 filter.
@@ -36,6 +36,15 @@ We have two filters with there characteristics, the Hβ and the Hα + [N II].
 
 The Balmer series or Balmer lines in atomic physics, is the designation of one of a set of six different named series describing the spectral line emissions of the hydrogen atom. The Balmer series is characterized by the electron transitioning from n ≥ 3 to n = 2, where n refers to the radial quantum number or principal quantum number of the electron. The transitions are named sequentially by Greek letter: n = 3 to n = 2 is called H-α, 4 to 2 is H-β, 5 to 2 is H-γ, and 6 to 2 is H-δ.
 
+<html>
+<body>
+
+<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/dcb08b2cd6fcd249851939465644f0af979a635f/Bohr-atom-PAR.png" alt="halpha" width="294" height="256">&nbsp;<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/dcb08b2cd6fcd249851939465644f0af979a635f/H-alpha.jpg" alt="uvwide">
+<html>
+<body>
+
+  In the images you appreciate a red spectral line, at a wavelength of 6563 Å (656.3 nanometers), emitted by a hydrogen atom when its electron falls from the third lowest energy level (n=3) to the second lowest energy level (n=2). The same line appears in absorption when electrons are raised from n=2 to n=3. 
+
 The spectral classification of stars, which is primarily a determination of surface temperature, is based on the relative strength of spectral lines, and the Balmer series in particular are very important. Other characteristics of a star that can be determined by close analysis of its spectrum include surface gravity (related to physical size) and composition.
 
 Balmer lines can appear as absorption or emission lines in a spectrum, depending on the nature of the object observed. In stars, the Balmer lines are usually seen in absorption, and they are "strongest" in stars with a surface temperature of about 10,000 kelvin (spectral type A). In the spectra of most spiral and irregular galaxies, AGNs, H II regions and planetary nebulae (PNe).
@@ -56,15 +65,6 @@ Minimum *cz* | -2709 Km/sec
 Maximum *cz* | 2818 Km/sec
 
 More information about the Hα + [N II] filter can be found [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/appendixA34.html#400138).
-
-A red spectral line, at a wavelength of 6563 Å (656.3 nanometers), emitted by a hydrogen atom when its electron falls from the third lowest energy level (n=3) to the second lowest energy level (n=2). The same line appears in absorption when electrons are raised from n=2 to n=3. 
-
-<html>
-<body>
-
-<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/dcb08b2cd6fcd249851939465644f0af979a635f/Bohr-atom-PAR.png" alt="halpha" width="294" height="256">&nbsp;<img border="0" src="https://raw.githubusercontent.com/LaurethTeX/Clustering/dcb08b2cd6fcd249851939465644f0af979a635f/H-alpha.jpg" alt="uvwide">
-<html>
-<body>
 
 More information about the Hα emission line can be found [here](http://www.daviddarling.info/encyclopedia/H/H-alpha.html).
 
@@ -103,13 +103,19 @@ More information about the OIII filter can be found [here](http://www.stsci.edu/
 
 ###  OII, Hα + [N II], Hβ, OIII  Interstellar objects and components of the interstellar medium
 
-There wavelengths are usually realted to each other in order to get rates and calculations from them and extract characteristics from the following regions.
+This wavelengths are located in the visual spectrum and are associated with energetic regions where stars are being born as well as reveal hundreds of thousands of stars.
+
+![Optical](https://raw.githubusercontent.com/LaurethTeX/Clustering/4b0e6683a00befb726af7d8f5aa145dac90a84c3/galactic_w44-optical.jpg)
+
+    In this image we can see the Milky Way where the yellow represents the near-infrared observations of Hubble. [Here](http://chandra.harvard.edu/photo/2009/galactic/) you will find more information about it.
+    
+These wavelengths are usually realted to each other in order to get rates and calculations from them and extract characteristics from the following regions.
 
 * HII regions
     * The best signpost for star formation regions are so-called HII regions. "HII" stands for ionized hydrogen. Once a massive star is formed it evaporates the remaining gas/dust cloud around it and starts bombarding the surrounding regions with UV photons with sufficient energy to knock the electron free of the hydrogen atoms. When the e- recombines with another H atom, the e- cascades down through the energy levels and the atom emits several photons. The most commonly emitted photon is the one when the e- drops from the 2nd excited level to the 1st - this is the "Hα" line in the red part of the spectrum.
     * To indenfity them the Hα emission line is the strongest but is also too broad that includes PNe so combinations of wavelenght rates (i.e. [SII]/[OIII]) are used to narrow the data.
-* Neutral Atomic Gas
-* Ionized Gas
+* Neutral Atomic Gas (see [UV filters](https://github.com/LaurethTeX/Clustering/blob/master/uv-filters.md))
+* Ionized Gas (see [UV filters](https://github.com/LaurethTeX/Clustering/blob/master/uv-filters.md))
 * Planetary Nebulae (PNe)
     * Emit strong in [OII]
     * 
