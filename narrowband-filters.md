@@ -30,7 +30,9 @@ UV radiation produced by young, massive stars shortward of 730 Å is sufficient 
 
 More information about the OII emision line can be found [here](http://www.ucolick.org/~simard/phd/root/node21.html) and [here](http://ned.ipac.caltech.edu/level5/Kron/Kron2_6.html).
 
-### [The Balmer emision lines](https://github.com/LaurethTeX/Clustering/blob/master/balmer-lines.md)
+## [The Balmer emision lines](https://github.com/LaurethTeX/Clustering/blob/master/balmer-lines.md)
+
+Review this section to undesrtand the following emission lines related to our filters.
 
 ## Hα + [N II]
 Corresponds to the Wide Hα + [N II] filter.
@@ -95,7 +97,7 @@ Line Rest Wavelength | 672.5 nm
 Minimum *cz* | -847 Km/sec
 Maximum *cz* | 4413 Km/sec
 
-###  OII, Hα + [N II], Hβ, OIII and SII  Interstellar objects and components of the interstellar medium
+#  OII, Hα + [N II], Hβ, OIII and SII  Interstellar objects and components of the interstellar medium
 
 This wavelengths are located in the visual spectrum and are associated with energetic regions where stars are being born as well as reveal hundreds of thousands of stars.
 
@@ -116,9 +118,14 @@ These wavelengths are usually related to each other in order to get rates and ca
     * Emission Lines Identified in Planetary Nebulae are [OII], [OIII], [SII] and [NII]. [Reference](http://laserstars.org/data/nebula/identification.html)
     
 ![pne](https://github.com/LaurethTeX/Clustering/blob/7d73c9a45a1605137daa4ef0be62df53dd1759f7/pn_spectrum.gif)
+<img src="https://raw.githubusercontent.com/LaurethTeX/Clustering/c528ba07e19b31a91d31a0b5305ccc5c6e5ea73e/pne.jpg" width="499" height="374">
+
+In the image you can appreciate many examples of beautiful PNe.
 
 To learn more about PNe click [here](http://web.williams.edu/Astronomy/research/PN/nebulae/nebulaegallery.php0) and [here](http://www.ucolick.org/~bolte/AY4_00/week7/low-mass_deathC.html).
-* **Supernovae remnants (SNRe)***
+
+* **Supernovae remnants (SNRe)**
+  
 * **Neutral Atomic Gas** (see [UV filters](https://github.com/LaurethTeX/Clustering/blob/master/uv-filters.md))
 * **Ionized Gas** (see [UV filters](https://github.com/LaurethTeX/Clustering/blob/master/uv-filters.md))
 
