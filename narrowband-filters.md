@@ -124,8 +124,6 @@ In the image you can appreciate many examples of beautiful PNe.
 
 To learn more about PNe click [here](http://web.williams.edu/Astronomy/research/PN/nebulae/nebulaegallery.php0) and [here](http://www.ucolick.org/~bolte/AY4_00/week7/low-mass_deathC.html).
 
-* **Supernovae remnants (SNRe)**
-  
 * **Neutral Atomic Gas** (see [UV filters](https://github.com/LaurethTeX/Clustering/blob/master/uv-filters.md))
 * **Ionized Gas** (see [UV filters](https://github.com/LaurethTeX/Clustering/blob/master/uv-filters.md))
 
