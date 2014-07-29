@@ -97,6 +97,8 @@ Line Rest Wavelength | 672.5 nm
 Minimum *cz* | -847 Km/sec
 Maximum *cz* | 4413 Km/sec
 
+More information about the SII filter can be found [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/appendixA37.html#316132).
+
 #  OII, Hα + [N II], Hβ, OIII and SII  Interstellar objects and components of the interstellar medium
 
 This wavelengths are located in the visual spectrum and are associated with energetic regions where stars are being born as well as reveal hundreds of thousands of stars.
@@ -126,5 +128,3 @@ To learn more about PNe click [here](http://web.williams.edu/Astronomy/research/
 
 * **Neutral Atomic Gas** (see [UV filters](https://github.com/LaurethTeX/Clustering/blob/master/uv-filters.md))
 * **Ionized Gas** (see [UV filters](https://github.com/LaurethTeX/Clustering/blob/master/uv-filters.md))
-
-More information about the SII filter can be found [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/appendixA37.html#316132).
