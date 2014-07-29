@@ -23,10 +23,15 @@ UV wide, U-Band, OII, B-Band, H-beta, OIII, H-Alpha and NII, SII, I-Band
 
 <html>
 <body>
+
+The filters are divided in three goups, that characterize their specifications.
+
 ### [UV Filters](https://github.com/LaurethTeX/Clustering/blob/master/uv-filters.md)
+To learn about the UV wide and U-band filter review this section.
 <!-- ### [UV wide filter](https://github.com/LaurethTeX/Clustering/blob/master/uvwide-Filter.md)
 ### [U-band (Stromgren u)](https://github.com/LaurethTeX/Clustering/blob/master/uband-filter.md) -->
 ### [Narrow-Band Filters](https://github.com/LaurethTeX/Clustering/blob/master/narrowband-filters.md)
+To learn about the OII, H-beta, OIII, H-alpha and SII filter review this section.
 <!-- ### [O II](https://github.com/LaurethTeX/Clustering/blob/master/oii-filter.md) -->
 <!--### [B-band (WFPC2 B)]()
 ### [H-beta]()
@@ -34,4 +39,5 @@ UV wide, U-Band, OII, B-Band, H-beta, OIII, H-Alpha and NII, SII, I-Band
 ### [Wide H-alpha and N II]()
 ### [S II]() 
 ### [I-band (WFPC2 I)]()-->
-### [Wide-Band Filters]()
+### [Wide-Band Filters](https://github.com/LaurethTeX/Clustering/blob/master/wide-band-filters.md)
+To learn about the B-band and I-band filter revier this section.
