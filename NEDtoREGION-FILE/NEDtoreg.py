@@ -22,7 +22,7 @@ def nedtoreg(file_name):
     """
     
     #Extrating data from NED file
-    data = np.genfromtxt(file_name,dtype=[('Object_Name','S20'),('RA_deg','f8'),('DEC_deg','f8'),('Type','S6')],delimiter="|",skip_header=24,missing_values='',filling_values=0.0,usecols={1,2,3,4},invalid_raise=False)
+    data = np.genfromtxt(file_name,dtype=[('Object_Name','S20'),('RA_deg','f8'),('DEC_deg','f8'),('Type','S6')],delimiter="|",skip_header=25,missing_values='',filling_values=0.0,usecols={1,2,3,4},invalid_raise=False)
     
     #Create new REGION file
     region_file = open(file_name[0:-4]+'_REGION.reg','w')
@@ -136,11 +136,11 @@ def nedtoreg(file_name):
             region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=box color = green\n')
             
         #X
-        elif data['Type'][i] == 'UvES'
+        elif data['Type'][i] == 'UvES':
             region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=X color = magenta\n')
             
         #Boxcirle
-        elif data['Type'][i] == 'Neb'
+        elif data['Type'][i] == 'Neb':
             region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=boxcircle color = cyan\n')
             
         else:
