@@ -37,6 +37,7 @@ The (testable) assumption that the same physical laws that apply here and now al
 
 Clustering
 -----------------
+ Division of data into groups of similar objects.
 
 FITS table
 -----------------
