@@ -9,8 +9,9 @@ Contents
 3. [Data Preprocessing](https://github.com/LaurethTeX/Clustering/blob/master/Preprocessing.md)
 4. [Clustering Methods](https://github.com/LaurethTeX/Clustering/blob/master/Methods.md)
 5. Tests
-6. Results
-7. Conclusions
+6. [Comparison with NED survey](https://github.com/LaurethTeX/Clustering/blob/master/NEDtoREGION-FILE/KnownRegions.md)
+7. Discusion
+8. Conclusions
 
 
 **Where to look... [References](https://github.com/LaurethTeX/Clustering/blob/master/References.md)**
