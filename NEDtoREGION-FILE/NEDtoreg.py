@@ -53,7 +53,7 @@ def nedtoreg(file_name):
     HII	        HII region                                                      Circle Green
     IrS	        Infrared source
     MCld	Molecular cloud                                                 Circle White
-    Neb	        Nebula
+    Neb	        Nebula                                                          Boxcircle Cyan
     Nova	Nova
     Other	Other classification (e.g. comet; plate defect)                 Diamond Yellow
     PN	        Planetary nebula                                                Circle Yellow
@@ -70,7 +70,7 @@ def nedtoreg(file_name):
     UvES	Ultraviolet excess source                                       X Magenta
     UvS	        Ultraviolet source                                              Cross Magenta
     V*	        Variable star
-    VisS	Visual source
+    VisS	Visual source                                                   Box Green
     WD*	        White dwarf                                                     Diamont White
     WR*	        Wolf-Rayet star
     XrayS	X-ray source                                                    Cross Cyan
@@ -100,18 +100,48 @@ def nedtoreg(file_name):
             region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = magenta\n')
                 
         #Diamond 
-        #elif data['Type'][i] == 'XrayS':
-        #elif data['Type'][i] == 'Radio': 
+        elif data['Type'][i] == 'exG*':
+            egion_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=diamond color = green\n')
+
+        elif data['Type'][i] == 'G':
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=diamond color = magenta\n')
+            
+        elif data['Type'][i] == 'GClstr':
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=diamond color = red\n')
         
-        #Cross point(204.24799,-29.830171) # point=diamond
+        #Cross point(204.24799,-29.830171) # point=cross
         elif data['Type'][i] == '*':
-            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=cross color = green')
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=cross color = green\n')
             
         elif data['Type'][i] == '**':
-            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=cross color = red')
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=cross color = red\n')
             
         elif data['Type'][i] == '*Ass':
-            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=cross color = white')
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=cross color = white\n')
+            
+        elif data['Type'][i] == 'XrayS':
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=cross color = cyan\n')
+        
+        elif data['Type'][i] == 'Blue*':
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=cross color = blue\n')
+        
+        elif data['Type'][i] == 'C*':
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=cross color = yellow\n')
+        
+        elif data['Type'][i] == 'UvS':
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=cross color = magenta\n')
+            
+        #Box
+        elif data['Type'][i] == 'VisS':
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=box color = green\n')
+            
+        #X
+        elif data['Type'][i] == 'UvES'
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=X color = magenta\n')
+            
+        #Boxcirle
+        elif data['Type'][i] == 'Neb'
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=boxcircle color = cyan\n')
             
         else:
             print data['Type'][i]
