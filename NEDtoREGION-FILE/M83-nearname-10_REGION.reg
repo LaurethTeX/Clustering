@@ -78,6 +78,7 @@ circle(204.24783,-29.86768,1") # color = cyan
 point(204.25025,-29.86058) # point=cross color = cyan
 circle(204.2545,-29.85933,1") # color = green
 circle(204.24652,-29.86332,1") # color = cyan
+point(204.24992,-29.87129) # point=box color = red
 circle(204.25042,-29.87167,1") # color = green
 circle(204.25817,-29.85912,1") # color = blue
 circle(204.2528,-29.87271,1") # color = cyan
@@ -95,6 +96,7 @@ circle(204.25021,-29.85706,1") # color = blue
 circle(204.25108,-29.85674,1") # color = blue
 circle(204.2635,-29.86088,1") # color = blue
 circle(204.25771,-29.85644,1") # color = blue
+point(204.24808,-29.85731) # point=box color = red
 circle(204.24296,-29.86739,1") # color = green
 circle(204.25733,-29.85608,1") # color = blue
 circle(204.26018,-29.85724,1") # color = cyan
@@ -120,6 +122,7 @@ circle(204.25417,-29.85305,1") # color = blue
 circle(204.2475,-29.85427,1") # color = blue
 circle(204.24713,-29.85416,1") # color = blue
 circle(204.25454,-29.85267,1") # color = blue
+point(204.24583,-29.85446) # point=box color = red
 circle(204.25425,-29.85231,1") # color = blue
 point(204.2425,-29.85683) # point=cross color = cyan
 circle(204.24638,-29.85392,1") # color = blue
@@ -195,6 +198,7 @@ circle(204.26513,-29.84897,1") # color = blue
 circle(204.26283,-29.84794,1") # color = green
 circle(204.25192,-29.84635,1") # color = blue
 circle(204.26212,-29.84758,1") # color = blue
+point(204.27354,-29.85619) # point=box color = red
 circle(204.23913,-29.87989,1") # color = green
 circle(204.26038,-29.84687,1") # color = blue
 circle(204.268,-29.85033,1") # color = blue
@@ -223,6 +227,8 @@ circle(204.26029,-29.88572,1") # color = green
 circle(204.26971,-29.84933,1") # color = green
 circle(204.26875,-29.84867,1") # color = blue
 circle(204.26304,-29.8457,1") # color = blue
+point(204.27658,-29.85725) # point=box color = red
+point(204.27851,-29.86563) # point=box color = blue
 point(204.27575,-29.87567) # point=cross color = cyan
 circle(204.26108,-29.84469,1") # color = blue
 circle(204.23671,-29.84976,1") # color = blue
@@ -258,6 +264,7 @@ circle(204.26946,-29.84631,1") # color = blue
 point(204.25271,-29.88886) # point=cross color = cyan
 circle(204.23742,-29.84682,1") # color = blue
 circle(204.23687,-29.84717,1") # color = blue
+point(204.28083,-29.86859) # point=box color = red
 circle(204.2435,-29.8437,1") # color = blue
 circle(204.27983,-29.85822,1") # color = green
 circle(204.25804,-29.84211,1") # color = green
@@ -265,6 +272,7 @@ circle(204.26625,-29.8444,1") # color = blue
 circle(204.272,-29.84775,1") # color = blue
 circle(204.27075,-29.8468,1") # color = blue
 circle(204.26346,-29.84323,1") # color = blue
+point(204.27104,-29.88394) # point=X color = white
 point(204.23425,-29.88208) # point=cross color = cyan
 circle(204.23842,-29.84573,1") # color = blue
 point(204.26029,-29.88872) # point=cross color = cyan
@@ -281,10 +289,12 @@ point(204.27763,-29.85211) # point=cross color = cyan
 circle(204.26712,-29.84377,1") # color = blue
 circle(204.26163,-29.88922,1") # color = blue
 point(204.22571,-29.86933) # point=cross color = cyan
+point(204.23712,-29.84536) # point=box color = red
 circle(204.23771,-29.84495,1") # color = blue
 circle(204.24925,-29.84091,1") # color = blue
 circle(204.28165,-29.87212,1") # color = cyan
 circle(204.28238,-29.86156,1") # color = green
+point(204.22896,-29.87784) # point=box color = red
 circle(204.23237,-29.84883,1") # color = blue
 circle(204.251,-29.84051,1") # color = blue
 circle(204.27462,-29.84788,1") # color = blue
@@ -301,8 +311,10 @@ circle(204.23917,-29.84292,1") # color = blue
 point(204.22553,-29.85728) # point=cross color = magenta
 circle(204.2695,-29.8431,1") # color = blue
 circle(204.23546,-29.8448,1") # color = blue
+point(204.23087,-29.88224) # point=box color = red
 circle(204.23529,-29.886,1") # color = green
 circle(204.27467,-29.84628,1") # color = green
+point(204.22588,-29.85556) # point=box color = red
 circle(204.23029,-29.849,1") # color = blue
 point(204.25046,-29.89167) # point=cross color = cyan
 circle(204.26721,-29.84151,1") # color = blue
@@ -321,12 +333,15 @@ circle(204.27479,-29.84556,1") # color = blue
 circle(204.23167,-29.84676,1") # color = blue
 circle(204.265,-29.89055,1") # color = blue
 circle(204.28071,-29.85177,1") # color = green
+point(204.28192,-29.85369) # point=box color = red
 circle(204.23292,-29.8456,1") # color = blue
 circle(204.28463,-29.86987,1") # color = green
 circle(204.24138,-29.84072,1") # color = green
 circle(204.23167,-29.88433,1") # color = green
+point(204.22713,-29.85161) # point=box color = red
 point(204.27907,-29.84921) # point=boxcircle color = cyan
 circle(204.23175,-29.88461,1") # color = green
+point(204.28287,-29.85494) # point=box color = red
 circle(204.228,-29.85001,1") # color = blue
 circle(204.23433,-29.84406,1") # color = green
 circle(204.28537,-29.86732,1") # color = cyan
@@ -370,6 +385,7 @@ circle(204.23383,-29.84271,1") # color = blue
 circle(204.28623,-29.85925,1") # color = cyan
 circle(204.23271,-29.84347,1") # color = blue
 point(204.22942,-29.88469) # point=cross color = cyan
+point(204.28621,-29.85862) # point=box color = red
 circle(204.23983,-29.83935,1") # color = blue
 point(204.24638,-29.89347) # point=cross color = cyan
 circle(204.23596,-29.84119,1") # color = blue
@@ -404,13 +420,17 @@ circle(204.26221,-29.83671,1") # color = blue
 circle(204.26583,-29.8932,1") # color = blue
 circle(204.22,-29.86167,1") # color = green
 circle(204.28621,-29.87544,1") # color = green
+point(204.27558,-29.8885) # point=X color = white
 circle(204.22829,-29.88517,1") # color = green
+point(204.22012,-29.86054) # point=box color = red
 circle(204.25913,-29.83598,1") # color = blue
 circle(204.24842,-29.83602,1") # color = blue
+point(204.22329,-29.87897) # point=box color = red
 circle(204.28768,-29.85929,1") # color = cyan
 circle(204.24446,-29.83668,1") # color = blue
 circle(204.24083,-29.83775,1") # color = blue
 circle(204.22121,-29.87489,1") # color = green
+point(204.22246,-29.8531) # point=box color = red
 circle(204.26604,-29.89349,1") # color = blue
 circle(204.22758,-29.84601,1") # color = blue
 circle(204.26242,-29.83632,1") # color = blue
@@ -432,6 +452,7 @@ circle(204.22975,-29.84349,1") # color = blue
 circle(204.28845,-29.85946,1") # color = cyan
 circle(204.23763,-29.8384,1") # color = blue
 circle(204.28496,-29.87989,1") # color = green
+point(204.22667,-29.88477) # point=box color = red
 point(204.28657,-29.87702) # point=cross color = cyan
 circle(204.26642,-29.89409,1") # color = blue
 circle(204.22633,-29.84628,1") # color = green
@@ -468,6 +489,7 @@ circle(204.25563,-29.89701,1") # color = blue
 circle(204.27054,-29.89359,1") # color = blue
 circle(204.22954,-29.84183,1") # color = green
 circle(204.26125,-29.83433,1") # color = green
+point(204.22583,-29.84506) # point=box color = red
 circle(204.27083,-29.89362,1") # color = blue
 circle(204.27792,-29.84138,1") # color = blue
 circle(204.23733,-29.83709,1") # color = blue
@@ -478,6 +500,7 @@ circle(204.22992,-29.84134,1") # color = blue
 circle(204.227,-29.88711,1") # color = green
 circle(204.27681,-29.84033,1") # color = cyan
 circle(204.24529,-29.83435,1") # color = blue
+point(204.22188,-29.84962) # point=box color = red
 circle(204.29008,-29.85878,1") # color = green
 circle(204.22846,-29.84226,1") # color = blue
 circle(204.27629,-29.891,1") # color = green
@@ -532,9 +555,12 @@ circle(204.26508,-29.89743,1") # color = blue
 circle(204.26117,-29.89829,1") # color = blue
 circle(204.29004,-29.8535,1") # color = green
 circle(204.21738,-29.87619,1") # color = green
+point(204.28842,-29.85014) # point=box color = red
+point(204.25987,-29.89858) # point=box color = red
 circle(204.2475,-29.83232,1") # color = blue
 circle(204.25862,-29.89873,1") # color = blue
 circle(204.27658,-29.83818,1") # color = blue
+point(204.29171,-29.85784) # point=box color = red
 circle(204.22521,-29.84284,1") # color = blue
 circle(204.22688,-29.84135,1") # color = blue
 circle(204.292,-29.85878,1") # color = green
@@ -544,6 +570,7 @@ circle(204.26996,-29.8962,1") # color = blue
 circle(204.23529,-29.83572,1") # color = green
 circle(204.25504,-29.89927,1") # color = blue
 circle(204.2365,-29.83506,1") # color = blue
+point(204.28925,-29.85077) # point=box color = red
 circle(204.21771,-29.87822,1") # color = green
 circle(204.25575,-29.89934,1") # color = blue
 circle(204.21542,-29.87156,1") # color = green
@@ -573,6 +600,7 @@ point(204.21859,-29.8811) # point=cross color = cyan
 circle(204.25708,-29.89977,1") # color = blue
 circle(204.22579,-29.84102,1") # color = blue
 circle(204.27904,-29.83862,1") # color = blue
+point(204.29254,-29.85689) # point=X color = white
 circle(204.26988,-29.83374,1") # color = blue
 circle(204.24138,-29.89822,1") # color = green
 circle(204.29067,-29.87887,1") # color = green
@@ -646,6 +674,7 @@ circle(204.27863,-29.83636,1") # color = blue
 circle(204.23783,-29.83213,1") # color = blue
 circle(204.25717,-29.90145,1") # color = blue
 circle(204.24233,-29.90017,1") # color = green
+point(204.26413,-29.90057) # point=box color = red
 circle(204.26163,-29.90104,1") # color = blue
 circle(204.26812,-29.83125,1") # color = blue
 circle(204.25458,-29.90175,1") # color = blue
@@ -744,6 +773,7 @@ circle(204.23342,-29.83148,1") # color = blue
 circle(204.26646,-29.90223,1") # color = blue
 circle(204.25725,-29.82713,1") # color = blue
 circle(204.252,-29.827,1") # color = blue
+point(204.21479,-29.8835) # point=box color = red
 circle(204.21196,-29.87792,1") # color = green
 circle(204.22913,-29.83347,1") # color = blue
 circle(204.27488,-29.83138,1") # color = blue
@@ -891,6 +921,7 @@ circle(204.2635,-29.90628,1") # color = green
 circle(204.21371,-29.84259,1") # color = blue
 circle(204.25475,-29.90713,1") # color = blue
 circle(204.25325,-29.90713,1") # color = blue
+point(204.20833,-29.87871) # point=box color = red
 circle(204.23046,-29.829,1") # color = blue
 circle(204.28204,-29.8993,1") # color = blue
 circle(204.21521,-29.84065,1") # color = blue
@@ -1294,6 +1325,7 @@ circle(204.28108,-29.81878,1") # color = green
 circle(204.26708,-29.8144,1") # color = blue
 circle(204.24337,-29.91691,1") # color = blue
 circle(204.28117,-29.8187,1") # color = blue
+point(204.20425,-29.83559) # point=X color = red
 point(204.28136,-29.81867) # point=cross color = cyan
 circle(204.22321,-29.82023,1") # color = blue
 circle(204.26721,-29.81421,1") # color = blue
@@ -1347,12 +1379,14 @@ circle(204.28283,-29.81791,1") # color = blue
 circle(204.23579,-29.81407,1") # color = blue
 circle(204.26737,-29.81297,1") # color = blue
 circle(204.26821,-29.81312,1") # color = blue
+point(204.20642,-29.83087) # point=X color = red
 circle(204.25042,-29.81164,1") # color = green
 circle(204.22442,-29.81799,1") # color = blue
 circle(204.25975,-29.91907,1") # color = blue
 circle(204.29421,-29.9065,1") # color = blue
 circle(204.27792,-29.91517,1") # color = green
 circle(204.26533,-29.81234,1") # color = blue
+point(204.23133,-29.81511) # point=X color = red
 circle(204.24425,-29.91876,1") # color = blue
 point(204.19171,-29.86719) # point=cross color = cyan
 point(204.24729,-29.91914) # point=cross color = cyan
@@ -1513,6 +1547,7 @@ circle(204.27792,-29.92053,1") # color = blue
 circle(204.29796,-29.91035,1") # color = blue
 circle(204.28088,-29.81129,1") # color = blue
 circle(204.2835,-29.81233,1") # color = blue
+point(204.19996,-29.8296) # point=X color = red
 circle(204.29267,-29.81691,1") # color = blue
 circle(204.26408,-29.80704,1") # color = blue
 circle(204.26367,-29.92395,1") # color = blue
@@ -1584,6 +1619,7 @@ circle(204.18371,-29.85683,1") # color = green
 circle(204.27196,-29.8059,1") # color = blue
 circle(204.28583,-29.92044,1") # color = blue
 point(204.31121,-29.82897) # point=cross color = cyan
+point(204.21325,-29.81489) # point=X color = red
 circle(204.18883,-29.89017,1") # color = green
 circle(204.24454,-29.80431,1") # color = blue
 point(204.32487,-29.86997) # point=cross color = cyan
@@ -1649,7 +1685,9 @@ circle(204.29112,-29.9211,1") # color = blue
 point(204.18138,-29.852) # point=cross color = cyan
 circle(204.32817,-29.86656,1") # color = green
 circle(204.27554,-29.92704,1") # color = blue
+point(204.1945,-29.82677) # point=X color = red
 circle(204.25067,-29.801,1") # color = green
+point(204.23492,-29.80308) # point=box color = red
 circle(204.27717,-29.92669,1") # color = blue
 circle(204.30871,-29.90918,1") # color = blue
 circle(204.17954,-29.86878,1") # color = green
@@ -1713,6 +1751,7 @@ circle(204.27967,-29.92906,1") # color = blue
 circle(204.23663,-29.93117,1") # color = green
 circle(204.177,-29.85517,1") # color = green
 circle(204.29779,-29.92158,1") # color = blue
+point(204.23242,-29.80019) # point=X color = red
 point(204.33187,-29.85878) # point=cross color = cyan
 circle(204.30983,-29.91308,1") # color = blue
 circle(204.23692,-29.79906,1") # color = green
@@ -1749,6 +1788,7 @@ circle(204.23983,-29.93448,1") # color = blue
 circle(204.31383,-29.91257,1") # color = blue
 circle(204.29137,-29.92766,1") # color = blue
 point(204.25717,-29.79528) # point=cross color = cyan
+point(204.19021,-29.82217) # point=X color = red
 circle(204.29383,-29.92652,1") # color = blue
 circle(204.29429,-29.92629,1") # color = blue
 circle(204.3145,-29.91205,1") # color = blue
@@ -1845,6 +1885,7 @@ circle(204.28808,-29.93613,1") # color = blue
 circle(204.2905,-29.93526,1") # color = blue
 circle(204.20863,-29.93131,1") # color = green
 circle(204.27937,-29.93903,1") # color = blue
+point(204.18863,-29.81351) # point=X color = red
 circle(204.25429,-29.94227,1") # color = blue
 circle(204.30933,-29.92543,1") # color = blue
 circle(204.31117,-29.92418,1") # color = blue
@@ -1862,6 +1903,7 @@ point(204.17979,-29.82167) # point=cross color = cyan
 circle(204.25258,-29.94334,1") # color = blue
 circle(204.27096,-29.942,1") # color = blue
 circle(204.26946,-29.94235,1") # color = blue
+point(204.17479,-29.82799) # point=X color = red
 circle(204.24696,-29.94349,1") # color = blue
 circle(204.26188,-29.94344,1") # color = blue
 circle(204.26708,-29.94295,1") # color = blue
@@ -1891,6 +1933,7 @@ circle(204.2045,-29.93414,1") # color = green
 circle(204.27017,-29.94518,1") # color = blue
 circle(204.28021,-29.94316,1") # color = blue
 circle(204.25233,-29.94642,1") # color = blue
+point(204.166,-29.8377) # point=X color = red
 circle(204.27454,-29.94464,1") # color = blue
 circle(204.32438,-29.91906,1") # color = green
 circle(204.27825,-29.94427,1") # color = blue
@@ -1975,6 +2018,7 @@ point(204.1572,-29.81542) # point=cross color = cyan
 point(204.27804,-29.96179) # point=X color = magenta
 point(204.35639,-29.90896) # point=cross color = cyan
 point(204.31752,-29.94903) # point=cross color = cyan
+point(204.14655,-29.90336) # point=box color = yellow
 point(204.27648,-29.96421) # point=X color = magenta
 point(204.36831,-29.84605) # point=cross color = magenta
 point(204.36837,-29.88527) # point=cross color = magenta
@@ -2056,6 +2100,7 @@ point(204.15349,-29.78665) # point=cross color = magenta
 point(204.11959,-29.88279) # point=cross color = magenta
 point(204.23607,-29.74849) # point=cross color = magenta
 point(204.18889,-29.76167) # point=cross color = magenta
+point(204.14721,-29.79198) # point=X color = red
 point(204.17036,-29.77194) # point=cross color = magenta
 point(204.38839,-29.88846) # point=cross color = magenta
 point(204.1273,-29.81972) # point=cross color = magenta

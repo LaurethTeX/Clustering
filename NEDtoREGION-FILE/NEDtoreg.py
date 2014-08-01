@@ -47,33 +47,33 @@ def nedtoreg(file_name):
     GammaS	Gamma ray source
     GClstr	Cluster of galaxies                                             Diamond  Red
     GGroup	Group of galaxies                                               Diamond  Blue
-    GPair	Galaxy pair
+    GPair	Galaxy pair                                                     Box      Blue
     GTrpl	Galaxy triple
     G_Lens	Lensed image of a galaxy
-    HII	        HII region                                                      Circle Green
-    IrS	        Infrared source
-    MCld	Molecular cloud                                                 Circle White
+    HII	        HII region                                                      Circle    Green
+    IrS	        Infrared source                                                 Box       Yellow
+    MCld	Molecular cloud                                                 Circle    White
     Neb	        Nebula                                                          Boxcircle Cyan
     Nova	Nova
-    Other	Other classification (e.g. comet; plate defect)                 Diamond Yellow
-    PN	        Planetary nebula                                                Circle Yellow
-    PofG	Part of galaxy
+    Other	Other classification (e.g. comet; plate defect)                 Diamond   Yellow
+    PN	        Planetary nebula                                                Circle    Yellow
+    PofG	Part of galaxy                                                  X         White
     Psr	        Pulsar
     QGroup	Group of QSOs
     QSO	        Quasi-stellar object
     Q_Lens	Lensed image of a QSO
-    RadioS	Radio source
-    Red*	Red star                                                        Diamond
-    RfN	        Reflection nebula                                               Circle Red
-    SN	        Supernova                                                       Cirle Magenta
-    SNR	        Supernova remnant                                               Circle Cyan
-    UvES	Ultraviolet excess source                                       X Magenta
-    UvS	        Ultraviolet source                                              Cross Magenta
-    V*	        Variable star
-    VisS	Visual source                                                   Box Green
-    WD*	        White dwarf                                                     Diamont White
+    RadioS	Radio source                                                    Box        Red
+    Red*	Red star                                       
+    RfN	        Reflection nebula                                               Circle     Red
+    SN	        Supernova                                                       Cirle      Magenta
+    SNR	        Supernova remnant                                               Circle     Cyan
+    UvES	Ultraviolet excess source                                       X          Magenta
+    UvS	        Ultraviolet source                                              Cross      Magenta
+    V*	        Variable star                                                   X          Red
+    VisS	Visual source                                                   Box        Green
+    WD*	        White dwarf                                                     Diamont    White
     WR*	        Wolf-Rayet star
-    XrayS	X-ray source                                                    Cross Cyan
+    XrayS	X-ray source                                                    Cross      Cyan
     """
     #Asign simbols to each interstellar object and write in Region file
     for i in range(data.size):
@@ -101,7 +101,7 @@ def nedtoreg(file_name):
                 
         #Diamond 
         elif data['Type'][i] == 'exG*':
-            egion_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=diamond color = green\n')
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=diamond color = green\n')
 
         elif data['Type'][i] == 'G':
             region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=diamond color = magenta\n')
@@ -134,10 +134,25 @@ def nedtoreg(file_name):
         #Box
         elif data['Type'][i] == 'VisS':
             region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=box color = green\n')
+        
+        elif data['Type'][i] == 'RadioS':
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=box color = red\n')
+            
+        elif data['Type'][i] == 'IrS':
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=box color = yellow\n')
+        
+        elif data['Type'][i] == 'GGroup':
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=box color = blue\n')
             
         #X
         elif data['Type'][i] == 'UvES':
             region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=X color = magenta\n')
+            
+        elif data['Type'][i] == 'V*':
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=X color = red\n')
+            
+        elif data['Type'][i] == 'PofG':
+            region_file.write('point('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+') # point=X color = white\n')
             
         #Boxcirle
         elif data['Type'][i] == 'Neb':
@@ -147,4 +162,4 @@ def nedtoreg(file_name):
             print data['Type'][i]
         
     region_file.close()		
-    return data.size-24
+    return 'Number of objects identified: '+str(data.size-1)
