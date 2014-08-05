@@ -1,21 +1,21 @@
 # Region file format: DS9 version 4.1
-global color=cyan dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+global color=cyan dashlist=8 3 width=1 font="helvetica 12 bold roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
 fk5
-point(204.25396,-29.86542) # point=diamond color = magenta
-circle(204.25388,-29.86554,1") # color = cyan
-point(204.2542,-29.86519) # point=cross color = cyan
+point(204.25396,-29.86542) # point=diamond color = magenta text = {Galaxy}
+circle(204.25388,-29.86554,1") # color = cyan text = {Supernova remnant}
+point(204.2542,-29.86519) # point=cross color = cyan text = {X-ray source}
 point(204.25364,-29.86562) # point=cross color = cyan
 circle(204.25387,-29.86507,1") # color = cyan
-point(204.25379,-29.86598) # point=box color = green
+point(204.25379,-29.86598) # point=box color = green text = {Visual source}
 point(204.25363,-29.86597) # point=cross color = cyan
 point(204.25303,-29.86584) # point=box color = green
 circle(204.25488,-29.86589,1") # color = cyan
 point(204.25466,-29.86626) # point=box color = green
 circle(204.25461,-29.86448,1") # color = cyan
 circle(204.25275,-29.86586,1") # color = cyan
-circle(204.25292,-29.86639,1") # color = green
+circle(204.25292,-29.86639,1") # color = green text = {HII region}
 circle(204.25549,-29.86588,1") # color = cyan
-circle(204.25417,-29.86686,1") # color = blue
+circle(204.25417,-29.86686,1") # color = blue text = {Star cluster}
 circle(204.25225,-29.86545,1") # color = blue
 circle(204.25292,-29.86664,1") # color = cyan
 point(204.25271,-29.86653) # point=cross color = cyan
@@ -30,7 +30,7 @@ point(204.25533,-29.86664) # point=cross color = cyan
 circle(204.25227,-29.86636,1") # color = cyan
 point(204.25249,-29.86668) # point=box color = green
 circle(204.25188,-29.86539,1") # color = blue
-circle(204.25213,-29.86639,1") # color = magenta
+circle(204.25213,-29.86639,1") # color = magenta text = {Supernova}
 point(204.25345,-29.86734) # point=box color = green
 circle(204.25175,-29.86598,1") # color = blue
 point(204.25404,-29.86744) # point=cross color = cyan
@@ -78,7 +78,7 @@ circle(204.24783,-29.86768,1") # color = cyan
 point(204.25025,-29.86058) # point=cross color = cyan
 circle(204.2545,-29.85933,1") # color = green
 circle(204.24652,-29.86332,1") # color = cyan
-point(204.24992,-29.87129) # point=box color = red
+point(204.24992,-29.87129) # point=box color = red text = {Radio source}
 circle(204.25042,-29.87167,1") # color = green
 circle(204.25817,-29.85912,1") # color = blue
 circle(204.2528,-29.87271,1") # color = cyan
@@ -188,7 +188,7 @@ circle(204.26175,-29.8485,1") # color = blue
 circle(204.26408,-29.84943,1") # color = blue
 point(204.275,-29.86653) # point=cross color = cyan
 circle(204.24588,-29.88239,1") # color = green
-point(204.26717,-29.85107) # point=boxcircle color = cyan
+point(204.26717,-29.85107) # point=boxcircle color = cyan text = {Nebula}
 circle(204.26638,-29.88044,1") # color = green
 circle(204.25571,-29.84699,1") # color = blue
 circle(204.26913,-29.85231,1") # color = blue
@@ -228,7 +228,7 @@ circle(204.26971,-29.84933,1") # color = green
 circle(204.26875,-29.84867,1") # color = blue
 circle(204.26304,-29.8457,1") # color = blue
 point(204.27658,-29.85725) # point=box color = red
-point(204.27851,-29.86563) # point=box color = blue
+point(204.27851,-29.86563) # point=box color = blue text = {Group of galaxies }
 point(204.27575,-29.87567) # point=cross color = cyan
 circle(204.26108,-29.84469,1") # color = blue
 circle(204.23671,-29.84976,1") # color = blue
@@ -272,7 +272,7 @@ circle(204.26625,-29.8444,1") # color = blue
 circle(204.272,-29.84775,1") # color = blue
 circle(204.27075,-29.8468,1") # color = blue
 circle(204.26346,-29.84323,1") # color = blue
-point(204.27104,-29.88394) # point=X color = white
+point(204.27104,-29.88394) # point=X color = white text = {Part of galaxy}
 point(204.23425,-29.88208) # point=cross color = cyan
 circle(204.23842,-29.84573,1") # color = blue
 point(204.26029,-29.88872) # point=cross color = cyan
@@ -308,7 +308,7 @@ circle(204.23679,-29.84462,1") # color = blue
 circle(204.23271,-29.88322,1") # color = green
 circle(204.27596,-29.84822,1") # color = green
 circle(204.23917,-29.84292,1") # color = blue
-point(204.22553,-29.85728) # point=cross color = magenta
+point(204.22553,-29.85728) # point=cross color = magenta text = {Ultraviolet source}
 circle(204.2695,-29.8431,1") # color = blue
 circle(204.23546,-29.8448,1") # color = blue
 point(204.23087,-29.88224) # point=box color = red
@@ -1325,7 +1325,7 @@ circle(204.28108,-29.81878,1") # color = green
 circle(204.26708,-29.8144,1") # color = blue
 circle(204.24337,-29.91691,1") # color = blue
 circle(204.28117,-29.8187,1") # color = blue
-point(204.20425,-29.83559) # point=X color = red
+point(204.20425,-29.83559) # point=X color = red color = {Variable star}
 point(204.28136,-29.81867) # point=cross color = cyan
 circle(204.22321,-29.82023,1") # color = blue
 circle(204.26721,-29.81421,1") # color = blue
@@ -1816,7 +1816,7 @@ circle(204.23075,-29.79715,1") # color = blue
 circle(204.29192,-29.92872,1") # color = blue
 circle(204.29517,-29.92721,1") # color = blue
 circle(204.17158,-29.86572,1") # color = green
-point(204.29754,-29.92633) # point=X color = magenta
+point(204.29754,-29.92633) # point=X color = magenta text = {Ultraviolet excess source}
 circle(204.24225,-29.93642,1") # color = blue
 circle(204.27708,-29.93428,1") # color = blue
 circle(204.2415,-29.93654,1") # color = blue
@@ -2018,7 +2018,7 @@ point(204.1572,-29.81542) # point=cross color = cyan
 point(204.27804,-29.96179) # point=X color = magenta
 point(204.35639,-29.90896) # point=cross color = cyan
 point(204.31752,-29.94903) # point=cross color = cyan
-point(204.14655,-29.90336) # point=box color = yellow
+point(204.14655,-29.90336) # point=box color = yellow color = {Infrared source}
 point(204.27648,-29.96421) # point=X color = magenta
 point(204.36831,-29.84605) # point=cross color = magenta
 point(204.36837,-29.88527) # point=cross color = magenta
@@ -2400,3 +2400,5 @@ point(204.09537,-29.9585) # point=cross color = magenta
 point(204.08569,-29.94482) # point=cross color = magenta
 point(204.37753,-29.99292) # point=cross color = magenta
 point(204.17218,-30.01626) # point=cross color = cyan
+# text(204.23171,-29.798166) text={Identified objects in M83} color = black
+# text(204.23171,-29.807101) text={Main Information Table for NED objects within 10.000 arcmin} color = black
