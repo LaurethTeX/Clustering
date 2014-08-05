@@ -18,20 +18,9 @@ def nedtoreg(file_name):
     Return:
         -Interger
             Number of drawn objects
-    
-    """
-    
-    #Extrating data from NED file
-    data = np.genfromtxt(file_name,dtype=[('Object_Name','S20'),('RA_deg','f8'),('DEC_deg','f8'),('Type','S6')],delimiter="|",skip_header=25,missing_values='',filling_values=0.0,usecols={1,2,3,4},invalid_raise=False)
-    
-    #Create new REGION file
-    region_file = open(file_name[0:-4]+'_REGION.reg','w')
-    
-    #Write default properties
-    region_file.write('# Region file format: DS9 version 4.1\nglobal color=cyan dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1\nfk5\n')
-    
-    """
+            
     Current list of object types used in NED 30/July/2014 
+    
     *	        Star or Point Source                                            Cross    Green
     **	        Double star                                                     Cross    Red
     *Ass	Stellar association                                             Cross    White
@@ -74,27 +63,68 @@ def nedtoreg(file_name):
     WD*	        White dwarf                                                     Diamont    White
     WR*	        Wolf-Rayet star
     XrayS	X-ray source                                                    Cross      Cyan
+    
     """
+    #Index for coordinates
+    RA_text = 204.23171
+    DEC_text = -29.798166
+    
+    #Index for labels
+    label = [0,]
+    
+    #Extrating data from NED file
+    data = np.genfromtxt(file_name,dtype=[('Object_Name','S20'),('RA_deg','f8'),('DEC_deg','f8'),('Type','S6')],delimiter="|",skip_header=25,missing_values='',filling_values=0.0,usecols={1,2,3,4},invalid_raise=False)
+    
+    #Create new REGION file
+    region_file = open(file_name[0:-4]+'_REGION.reg','w')
+    
+    #Write default properties
+    region_file.write('# Region file format: DS9 version 4.1\nglobal color=cyan dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1\nfk5\n')
+    
     #Asign simbols to each interstellar object and write in Region file
     for i in range(data.size):
         #Circle
-        if data['Type'][i] == 'SNR':   
-            region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = cyan\n')
+        if data['Type'][i] == 'SNR':
+            if label[0] == 0:
+                region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = cyan text = {Supernova remnant}\n')
+                label[0] = 1
+            else:    
+                region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = cyan\n') 
 
         elif data['Type'][i] == 'HII':
-            region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = green\n')
+            if label[1] == 0:
+                region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = green text = {HII region}\n')
+                label[1] = 1
+            else:
+                region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = green\n')
             
         elif data['Type'][i] == '*Cl':
-            region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = blue\n')
+            if label[2] == 0:
+                region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = blue text = {Star cluster}\n')
+                label[2] == 1
+            else:   
+                region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = blue\n')
             
         elif data['Type'][i] == 'PN':
-            region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = yellow\n')
+            if label[3] == 0:
+                region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = yellow text = {Planetary nebula}\n')
+                label[3] = 1
+            else:
+                region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = yellow\n')
             
         elif data['Type'][i] == 'MCld':
-            region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = white\n')
+            if label[4] == 0:
+                region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = white text = {Molecular cloud}\n')
+                label[4] = 1
+            else:
+                region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = white\n')
             
         elif data['Type'][i] == 'RfN':
-            region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = red\n')
+            if label[5] == 0:
+                region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = red text = {Reflection nebula}\n')
+                lable[5] = 1
+            else:
+                region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = red\n')
             
         elif data['Type'][i] == 'SN':
             region_file.write('circle('+str(data['RA_deg'][i])+','+str(data['DEC_deg'][i])+',1") # color = magenta\n')
@@ -160,6 +190,9 @@ def nedtoreg(file_name):
             
         else:
             print data['Type'][i]
-        
+     
+    region_file.write('# text('+str(RA_text)+','+str(DEC_text)+') text={Identified objects in M83}\n')
+    region_file.write('# text('+str(RA_text)+','+str(DEC_text-0.008935)+') text={Main Information Table for NED objects within 10.000 arcmin of object MESSIER 083}\n')
+         
     region_file.close()		
     return 'Number of objects identified: '+str(data.size-1)
