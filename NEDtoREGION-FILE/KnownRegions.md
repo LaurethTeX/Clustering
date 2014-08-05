@@ -17,20 +17,27 @@ $ ipython
 >>> nedtoreg('yourSelectedList.txt')
 ```
 The characteristics of the `nedtoreg()` funtion are listed below:
-
-    *Input:
-        *Format
+```
+    Input:
+        Format
             Text (ASCII) table - Bar Separated Values of Main Source table
-        *Example
-            `nedtoreg('file.txt')`
-        *Input file generated from NED webpage
+        Example
+            nedtoreg('file.txt')
+        Input file generated from NED webpage
             http://ned.ipac.caltech.edu/forms/nearname.html
-    *Output:
-        *Format
+    Output:
+        Format
             DS9 Region File
-        *File
+        File
             `file_name + '_REGION'.reg`
-    *Return:
+    Return:
         -Interger
             Number of drawn objects
+```
+The program can identify up to 25 different objects, and those that are not will be listed in your terminal. Feel free to add some more.
 
+Finally, open your DS9, open your images, load the region file and succesfully we get out matched NED objects with our FITS images as we see in the next image.
+
+![Screen](https://raw.githubusercontent.com/LaurethTeX/Clustering/master/NEDtoREGION-FILE/Screenshot%202014-08-05%2015.12.22.png)
+
+As you can see, this can be very helpul with any application, you get to see what has been done and what can be expect from our results.
