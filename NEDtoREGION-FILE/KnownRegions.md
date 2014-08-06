@@ -116,6 +116,7 @@ V*:     12
 PofG:   3
 Neb:    3
 ```
+The total identified objects within a 10 ps radius are 2399.
 
 # What is known about M83
 
@@ -125,4 +126,7 @@ Interesting numbers about M83:
 * Is 15 million light years away (~4.59892 M Parsecs)
 * About 60 supernova remnants have been identified
 * Is about 40,000 ligth years across (~12 263.7938 Parsecs)
+
+Here is a nice picture of M83 where you will be able to appreciate better its beauty and characteristics.
+![m83](https://raw.githubusercontent.com/LaurethTeX/Clustering/857a91c4858b558adb32016eeda8600fb1a88489/NEDtoREGION-FILE/m83_hubble_1280.jpg)
 
