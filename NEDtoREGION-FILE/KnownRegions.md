@@ -41,3 +41,51 @@ Finally, open your DS9, open your images, load the region file and succesfully w
 ![Screen](https://raw.githubusercontent.com/LaurethTeX/Clustering/master/NEDtoREGION-FILE/Screenshot%202014-08-05%2015.12.22.png)
 
 As you can see, this can be very helpul with any application, you get to see what has been done and what can be expect from our results.
+
+The details for every matched object in the region file can be accesed by `help(nedtoreg)`, and it will display the following:
+```ipython
+Current list of object types used in NED 30/July/2014 
+    
+    *	        Star or Point Source                                            Cross    Green
+    **	        Double star                                                     Cross    Red
+    *Ass	Stellar association                                             Cross    White
+    *Cl	        Star cluster                                                    Circle   Blue
+    AbLS	Absorption line system                                        
+    Blue*	Blue star                                                       Cross    Blue 
+    C*	        Carbon star                                                     Cross    Yellow
+    EmLS	Emission line source
+    EmObj	Emission object
+    exG*	Extragalactic star (not a member of an identified galaxy)       Diamod   Green
+    Flare*	Flare star
+    G	        Galaxy                                                          Diamond  Magenta
+    GammaS	Gamma ray source
+    GClstr	Cluster of galaxies                                             Diamond  Red
+    GGroup	Group of galaxies                                               Diamond  Blue
+    GPair	Galaxy pair                                                     Box      Blue
+    GTrpl	Galaxy triple
+    G_Lens	Lensed image of a galaxy
+    HII	        HII region                                                      Circle    Green
+    IrS	        Infrared source                                                 Box       Yellow
+    MCld	Molecular cloud                                                 Circle    White
+    Neb	        Nebula                                                          Boxcircle Cyan
+    Nova	Nova
+    Other	Other classification (e.g. comet; plate defect)                 Diamond   Yellow
+    PN	        Planetary nebula                                                Circle    Yellow
+    PofG	Part of galaxy                                                  X         White
+    Psr	        Pulsar
+    QGroup	Group of QSOs
+    QSO	        Quasi-stellar object
+    Q_Lens	Lensed image of a QSO
+    RadioS	Radio source                                                    Box        Red
+    Red*	Red star                                       
+    RfN	        Reflection nebula                                               Circle     Red
+    SN	        Supernova                                                       Cirle      Magenta
+    SNR	        Supernova remnant                                               Circle     Cyan
+    UvES	Ultraviolet excess source                                       X          Magenta
+    UvS	        Ultraviolet source                                              Cross      Magenta
+    V*	        Variable star                                                   X          Red
+    VisS	Visual source                                                   Box        Green
+    WD*	        White dwarf                                                     Diamont    White
+    WR*	        Wolf-Rayet star
+    XrayS	X-ray source                                                    Cross      Cyan
+```
