@@ -40,7 +40,12 @@ Finally, open your DS9, open your images, load the region file and succesfully w
 
 ![Screen](https://raw.githubusercontent.com/LaurethTeX/Clustering/master/NEDtoREGION-FILE/Screenshot%202014-08-05%2015.12.22.png)
 
-As you can see, this can be very helpul with any application, you get to see what has been done and what can be expect from our results.
+As you can see, this can be very helpul with any application, you get to see what has been done and what can be expected from our cluseting test results. Particularly this RGB image correponds to this following wavelengths,
+
+* RED: I-band
+* Green: H-alpha
+* Blue: UV wide
+
 
 The details for every matched object in the region file can be accesed by `help(nedtoreg)`, and it will display the following:
 ```ipython
@@ -89,3 +94,35 @@ Current list of object types used in NED 30/July/2014
     WR*	        Wolf-Rayet star
     XrayS   	X-ray source                                                    Cross      Cyan
 ```
+# What can we see
+As we look at the image we appreciate 1417 star clusters distributed mostly in the inner part of the galaxy, a huge halo of 286 ultraviolet sources in the outer part, 344 scatered HII regions located in the arms in the inner part, 62 supernova remnants and 195 X-ray sources near the inner center of the galaxy.
+
+To be more precise:
+```python
+Objects found
+SNR:    62
+HII:    344
+*Cl:    1417
+SN:     6
+G:      13
+XrayS:  195
+UvS:    286
+VisS:   16
+RadioS: 28
+IrS:    1
+GGroup: 1
+UvES:   12
+V*:     12
+PofG:   3
+Neb:    3
+```
+
+# What is known about M83
+
+M83 is one of the closest and brigthest barred spiral galaxies, it is visible with binoculars in the consellation of Hydra, due to its spiral arms is called the Southern Pinwheel, several supernova explosions have been recorded, a double circumnuclear ring was discovered at its centre where also newly formed stars and giant lanes of dark dist can be found, redish star forming regions are found near the edges and contains a lot of hot gas created by a sudden burst of massive star formation.
+
+Interesting numbers about M83:
+* Is 15 million light years away (~4.59892 M Parsecs)
+* About 60 supernova remnants have been identified
+* Is about 40,000 ligth years across (~12 263.7938 Parsecs)
+
