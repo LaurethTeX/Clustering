@@ -48,44 +48,44 @@ Current list of object types used in NED 30/July/2014
     
     *	        Star or Point Source                                            Cross    Green
     **	        Double star                                                     Cross    Red
-    *Ass	Stellar association                                             Cross    White
+    *Ass	    Stellar association                                             Cross    White
     *Cl	        Star cluster                                                    Circle   Blue
-    AbLS	Absorption line system                                        
-    Blue*	Blue star                                                       Cross    Blue 
+    AbLS    	Absorption line system                                        
+    Blue*   	Blue star                                                       Cross    Blue 
     C*	        Carbon star                                                     Cross    Yellow
-    EmLS	Emission line source
-    EmObj	Emission object
-    exG*	Extragalactic star (not a member of an identified galaxy)       Diamod   Green
-    Flare*	Flare star
+    EmLS    	Emission line source
+    EmObj	    Emission object
+    exG*	    Extragalactic star (not a member of an identified galaxy)       Diamod   Green
+    Flare*	    Flare star
     G	        Galaxy                                                          Diamond  Magenta
-    GammaS	Gamma ray source
-    GClstr	Cluster of galaxies                                             Diamond  Red
-    GGroup	Group of galaxies                                               Diamond  Blue
-    GPair	Galaxy pair                                                     Box      Blue
-    GTrpl	Galaxy triple
-    G_Lens	Lensed image of a galaxy
+    GammaS	    Gamma ray source
+    GClstr	    Cluster of galaxies                                             Diamond  Red
+    GGroup  	Group of galaxies                                               Diamond  Blue
+    GPair	    Galaxy pair                                                     Box      Blue
+    GTrpl   	Galaxy triple
+    G_Lens  	Lensed image of a galaxy
     HII	        HII region                                                      Circle    Green
     IrS	        Infrared source                                                 Box       Yellow
-    MCld	Molecular cloud                                                 Circle    White
+    MCld    	Molecular cloud                                                 Circle    White
     Neb	        Nebula                                                          Boxcircle Cyan
-    Nova	Nova
-    Other	Other classification (e.g. comet; plate defect)                 Diamond   Yellow
+    Nova    	Nova
+    Other   	Other classification (e.g. comet; plate defect)                 Diamond   Yellow
     PN	        Planetary nebula                                                Circle    Yellow
-    PofG	Part of galaxy                                                  X         White
+    PofG	    Part of galaxy                                                  X         White
     Psr	        Pulsar
-    QGroup	Group of QSOs
+    QGroup  	Group of QSOs
     QSO	        Quasi-stellar object
-    Q_Lens	Lensed image of a QSO
-    RadioS	Radio source                                                    Box        Red
-    Red*	Red star                                       
+    Q_Lens  	Lensed image of a QSO
+    RadioS	    Radio source                                                    Box        Red
+    Red*	    Red star                                       
     RfN	        Reflection nebula                                               Circle     Red
     SN	        Supernova                                                       Cirle      Magenta
     SNR	        Supernova remnant                                               Circle     Cyan
-    UvES	Ultraviolet excess source                                       X          Magenta
+    UvES	    Ultraviolet excess source                                       X          Magenta
     UvS	        Ultraviolet source                                              Cross      Magenta
     V*	        Variable star                                                   X          Red
-    VisS	Visual source                                                   Box        Green
+    VisS    	Visual source                                                   Box        Green
     WD*	        White dwarf                                                     Diamont    White
     WR*	        Wolf-Rayet star
-    XrayS	X-ray source                                                    Cross      Cyan
+    XrayS   	X-ray source                                                    Cross      Cyan
 ```
