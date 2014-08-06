@@ -39,8 +39,9 @@ The program can identify up to 25 different objects, and those that are not will
 Finally, open your DS9, open your images, load the region file and succesfully we get out matched NED objects with our FITS images as we see in the next image.
 
 ![Screen](https://raw.githubusercontent.com/LaurethTeX/Clustering/master/NEDtoREGION-FILE/Screenshot%202014-08-05%2015.12.22.png)
+![Scren2](https://raw.githubusercontent.com/LaurethTeX/Clustering/8405676afbd8e804f0b78c447145b0c0d43e8629/NEDtoREGION-FILE/Screenshot%202014-08-05%2020.45.53.png)
 
-As you can see, this can be very helpul with any application, you get to see what has been done and what can be expected from our cluseting test results. Particularly this RGB image correponds to this following wavelengths,
+As you can see, this can be very helpul with any application, you get to see what has been done and what can be expected from our cluseting test results. Particularly this RGB image (inverted and normal) correponds to this following wavelengths,
 
 * RED: I-band
 * Green: H-alpha
