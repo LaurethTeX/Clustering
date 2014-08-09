@@ -26,14 +26,35 @@ The strategy here is to look for your particular instrument information, in this
 
 *Where you look?*
 
-Check out the pages of the institutes who made your instrument, look for published papers in online databases like [The SAO/NASA Astrophysics Data System](http://adsabs.harvard.edu/abstract_service.html) or [Astro-ph](http://arxiv.org/archive/astro-ph).
+Check out the pages of the instrument's handbook, in this case the Wide Field Camera 3 Instrument Handbookfor Cycle 22, specifically you can find the FWHM of each wavelenght [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/c06_uvis07.html#391844).
+
+Remember that we are looking for the poorest spatial resolution which means the largest FWHM, with our particular data this value corresponds to **0.083 arcsec/pixel.**
 
 
 Generate PSF convolution kernels
 ----------------- 
 The Space Telescope Science Institute provides a marvellous sofwtare called [Tiny Tim](http://www.stsci.edu/hst/observatory/focus/TinyTim), here you can select your specific data parameters like camera and filter and the software will generate the PSF kernel you need.
 
-The image cube: Our analyzable database
+Another way is to generate a gaussian kernel, which is what you do when you don't find the appropiate kernel database or Tiny Tim is taking too longo to calculate your kernel. The way that you can calcute it is explained below,
+```python
+import from astropy.convolution import Gaussian2DKernel
+native_pixelscale = 0.0396 # arcsec/pixel
+fwhm_input = 0.083 # arcsec
+sigma_input = (fwhm_input / (2* math.sqrt(2*math.log (2) ) * native_pixelscale))
+gaus_kernel_inp = Gaussian2DKernel(width=sigma_input)
+```
+
+Convolve all images to the same spatial resolution
+------------------
+Since our images have different spatial resolution a convolution is necessary, with the help of Astropy this is a simple step,
+```python
+import from astropy.convolution import convolve
+conv_result = convolve(data, gaus_kernel_inp)
+```
+And we should apply this step to all of our images, the code I used for this can be found [here](https://github.com/LaurethTeX/Clustering/blob/master/convolution.py), and as you can see below, the image on the left in an expample of the result you get after applying the convolution to the B-band image and the image on the right is the original image.
+![CONV](https://raw.githubusercontent.com/LaurethTeX/Clustering/bce9a87a243002b553fdeafa3b8e92f105a3e513/conv.jpg)
+
+The imagecube: Our analyzable database
 ------------------
 Since we have various images of the same target taken at different wavelenghts, we can append them into a single [FITS](http://fits.gsfc.nasa.gov/fits_wcs.html) file and get the database ready to be analized by the clustering algorithms. 
 The image cube in this particular case will conitain a header that cointains the conventions defined to specify the physical, or world, coordinates to be attached to each pixel of an N-dimensional image and our multiwavelength data (5000x8500x9).
@@ -81,12 +102,3 @@ If nothing happens means everything is going alright but if you get a message li
 means something went wrong, review the former steps, if you can't solve the problem post an issue at GitHub.
 
 You must also make sure that you have already installed *Astropy*, *Numpy*, *SciPy* and *Matplotlib* if not review the section [Tools](https://github.com/LaurethTeX/Clustering/blob/master/Tools.md) of this repository.
-
-
-Missing data
----------------
-In our data, as you can see in the image bellow it's an image made by mosaics and in some parts we have missing data.
-
-
-<a href="url"><img src="https://raw.githubusercontent.com/LaurethTeX/Clustering/master/unoN.jpg" align="left" height="510" width="300" ></a>
-
