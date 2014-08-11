@@ -99,7 +99,25 @@ And we should apply this step to all of our images, the code I used for this can
 
 Elimintate outliers and noise
 -----------------
-****
+Since most of the clustering algorithms are sensible to outliers, we will try to eliminate as many as possible, also in many of our images we can detect excesive noise near the edges, therefore, the proposed solution is to crop the images in order to eliminate the areas where there are missing values and noisy edges.
+
+**What is an outlier?**
+
+* Statistics defines and outlier as a point that does not fit in a probability function.
+I think that a picture will illustrate better about this.
+![oitlier](https://raw.githubusercontent.com/LaurethTeX/Clustering/ab24e961e65b94f59d733f7d628475992b9b3620/outliers1.jpg)
+
+Now, this tranlated to code looks like,
+```python
+import montage_wrapper
+
+#Crop images
+def crop(name):
+    montage_wrapper.commands.mSubimage(name, name[0:-5]+'_crp.fits',204.2683,-29.839535, xsize=0.03930, debug=False, all_pixels=False, hdu=None, status_file=None, ysize=0.07907)
+    return 'Image Cropped'
+```
+The trick here is to observe your image, forguet that it is an image and use sky coornidates to find the center, and then find out the width and heigth you want in degrees, and you will get something like this,
+![cropped](https://raw.githubusercontent.com/LaurethTeX/Clustering/86cfabfbd52e54ffd98a979d7fe7fbe2b3f535e3/croppedRGB-2.jpg)
 
 The imagecube: Our analyzable database
 ------------------
