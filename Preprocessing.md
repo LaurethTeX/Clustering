@@ -105,6 +105,7 @@ Since most of the clustering algorithms are sensible to outliers, we will try to
 
 * Statistics defines and outlier as a point that does not fit in a probability function.
 I think that a picture will illustrate better about this.
+
 ![oitlier](https://raw.githubusercontent.com/LaurethTeX/Clustering/ab24e961e65b94f59d733f7d628475992b9b3620/outliers1.jpg)
 
 Now, this tranlated to code looks like,
@@ -117,6 +118,7 @@ def crop(name):
     return 'Image Cropped'
 ```
 The trick here is to observe your image, forguet that it is an image and use sky coornidates to find the center, and then find out the width and heigth you want in degrees, and you will get something like this,
+
 ![cropped](https://raw.githubusercontent.com/LaurethTeX/Clustering/86cfabfbd52e54ffd98a979d7fe7fbe2b3f535e3/croppedRGB-2.jpg)
 
 The imagecube: Our analyzable database
