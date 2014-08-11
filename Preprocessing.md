@@ -108,7 +108,7 @@ I think that a picture will illustrate better about this.
 
 ![oitlier](https://raw.githubusercontent.com/LaurethTeX/Clustering/ab24e961e65b94f59d733f7d628475992b9b3620/outliers1.jpg)
 
-Now, this tranlated to code looks like,
+Now, this translated to code looks like,
 ```python
 import montage_wrapper
 
@@ -117,7 +117,10 @@ def crop(name):
     montage_wrapper.commands.mSubimage(name, name[0:-5]+'_crp.fits',204.2683,-29.839535, xsize=0.03930, debug=False, all_pixels=False, hdu=None, status_file=None, ysize=0.07907)
     return 'Image Cropped'
 ```
-The trick here is to observe your image, forguet that it is an image and use sky coornidates to find the center, and then find out the width and heigth you want in degrees, and you will get something like this,
+The trick here is to observe your image, forget that it is an image and use sky coornidates to find the center, and then find out the width and heigth you want in degrees, and you will get something like this if you create an RGB image combinning your cropped results.
+```shell
+mJPEG -t -2 -blue uvwide_conv_crp.fits 0s 99.999% gaussian -green halpha_conv_crp.fits 0s 99.999% gaussian -red iband_conv_crp.fits 0s 99.999% gaussian -out croppedRGB.jpg
+```
 
 ![cropped](https://raw.githubusercontent.com/LaurethTeX/Clustering/86cfabfbd52e54ffd98a979d7fe7fbe2b3f535e3/croppedRGB-2.jpg)
 
