@@ -47,6 +47,7 @@ The strategy to find the FWHM is to look for your particular instrument informat
 
 **What if FWHM? (Full width at half maximum)**
 The best way to explain this is with a picture, now imagine that the function that you see in the picture below is your PSF.
+
 ![fwhm](https://raw.githubusercontent.com/LaurethTeX/Clustering/9e5b09002afd67628b3780ac83ed9a1fd42562e1/360px-FWHM.png)
 
 **Where you look?**
@@ -86,8 +87,8 @@ sigma_input = (fwhm_input / (2* math.sqrt(2*math.log (2) ) * native_pixelscale))
 gaus_kernel_inp = Gaussian2DKernel(width=sigma_input)
 ```
 
-Convolve all images to the same spatial resolution
-------------------
+**Convolve all images to the same spatial resolution**
+
 Since our images have different spatial resolution a convolution is necessary, with the help of Astropy this is a simple step,
 ```python
 import from astropy.convolution import convolve
@@ -95,6 +96,10 @@ conv_result = convolve(data, gaus_kernel_inp)
 ```
 And we should apply this step to all of our images, the code I used for this can be found [here](https://github.com/LaurethTeX/Clustering/blob/master/convolution.py), and as you can see below, the image on the left in an expample of the result you get after applying the convolution to the B-band image and the image on the right is the original image.
 ![CONV](https://raw.githubusercontent.com/LaurethTeX/Clustering/bce9a87a243002b553fdeafa3b8e92f105a3e513/conv.jpg)
+
+Elimintate outliers and noise
+-----------------
+****
 
 The imagecube: Our analyzable database
 ------------------
