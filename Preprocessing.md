@@ -3,39 +3,68 @@ First Step: Data Pre-processing
 
 Why is this important?
 -----------------
-Imagine that you've got certain astronomical data, (for example purposes we will use [WFC3 ERS M83 Data Products](http://archive.stsci.edu/prepds/wfc3ers/m83datalist.html)) it is multi-wavelength data taken with different instruments which means that you will have a characteristic noise for each wavelength, differences on pixel size and resolutions, unnormalized data and maybe missing data in some areas... then how do you cluster that information?
+Imagine that you've got certain astronomical data, (for example purposes we will use [WFC3 ERS M83 Data Products](http://archive.stsci.edu/prepds/wfc3ers/m83datalist.html)) it is multi-wavelength data taken with different filters which means that you will have a characteristic noise for each wavelength, differences on pixel size and resolutions, unnormalized data and maybe missing data in some areas... then how do you cluster that information?
 
-First we must transform images to a common resolution, adjust pixel size. Then we must get rid of the noise, individually and at multi-wavelenght level.
+First we must transform images to a common spatial resolution, adjust pixel size. Then we must get rid of the noise, individually and at multi-wavelenght level.
 
 Data pre-processing is often problem-independent, and should be carefully applied because the results of many data mining algorithms can be significantly affected by the input data.
 
+What do we need you do to get our data ready for processing?
+-----------------
+* Find the FWHM for each image
+* Transform images to the same spatial resolution
+* Elimintate outliers and noise
+* Organize the data in a way that the clustering algorithm can read it. (i.e. image cube, arrays)
+ 
+Now ... in theory you're ready to test your algorithms and increase the probabilites of getting a good outcome from the clustering algorithms.
+
 Software available
 -----------------
-For this step I recommend [ImageCube](https://github.com/sophiathl/imagecube.git),
- which use packages like [Montage](http://montage.ipac.caltech.edu/index.html),
- [Sci-Kit Image](http://scikit-image.org/) and all of this is done in Python!
+To tackle this astornomy image processing problem there are many softwares available, or you can just create your own using Astropy, PyFITS and Montage, pernsonally I recommend [ImageCube](https://github.com/sophiathl/imagecube.git),
+ which use packages before mentioned and does all the work, and you can concentrate on the processing part.
  
  Imagecube processes multi-wavelength astronomical imaging datasets, performing conversion to common flux units,
  registration to a common WCS, convolution to a common angular resolution, and regridding to a specified pixel size.
+ 
+ Now let's get started with the data-preprocessing work!
  
 Find resolutions of all the FITS files (FWHM)
 ----------------- 
 First of all, is recomendable to remind your knowledge about convolution and learn about PSF, [here](http://www.jstor.org/stable/pdfplus/10.1086/662219.pdf?acceptTC=true) you will find a helpful paper.
 
-The strategy here is to look for your particular instrument information, in this case I'm looking for the WFC3 UVIS channel which is in [this](http://www.stsci.edu/institute/org/telescopes/Reports/ISR-TEL-2010-01) document.
+**What is PSF (Point spread function) ?**
+
+Applied to this specific problem, the PSF is a matrix that cointains the information about the way that light is spread on each light-source on an image. Images of an object appear in the detector as the convolution of the true object with the system PSF.
+The PSF is shape of a star (or point source) as imaged by the telescope.
+
+![conv](https://raw.githubusercontent.com/LaurethTeX/Clustering/c984066ad84abfbd090745092fdfa041ea9f5998/ConvolutionSimp_1.png)
+
+As you can see in the illustration above an image is simply the intensity of the object weighted by the PSF.
+
+For more information review [this](http://exoplanet.as.arizona.edu/~lclose/a302/lecture9/Lecture_9.html) webpage.
+
+The strategy to find the FWHM is to look for your particular instrument information, in this case I'm looking for the WFC3 UVIS channel which is in [this](http://www.stsci.edu/institute/org/telescopes/Reports/ISR-TEL-2010-01) document.
 
 *Where you look?*
 
 Check out the pages of the instrument's handbook, in this case the Wide Field Camera 3 Instrument Handbookfor Cycle 22, specifically you can find the FWHM of each wavelenght [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/c06_uvis07.html#391844).
 
-Remember that we are looking for the poorest spatial resolution which means the largest FWHM, with our particular data this value corresponds to **0.083 arcsec/pixel.**
+Remember that we are looking for the poorest spatial resolution which means the largest FWHM, with our particular data this value corresponds to **0.083 arcsec/pixel** which corresponds to 200nm in the UV wide filter.
 
 
-Generate PSF convolution kernels
+Transform images to the same spatial resolution
 ----------------- 
+**Find your native pixel scale**
+
+For this particular image dataset the WFC3 UVIS mosaics have the native detector scale of 0.0396 arcsec/pixel, as you can see in the [webpage](http://archive.stsci.edu/prepds/wfc3ers/m83datalist.html) where you can download the images.
+
+When this mumber in hidden from you and you can't find it anywhere, you can calculate it 
+
+**Calculate the convolution kernel**
+
 The Space Telescope Science Institute provides a marvellous sofwtare called [Tiny Tim](http://www.stsci.edu/hst/observatory/focus/TinyTim), here you can select your specific data parameters like camera and filter and the software will generate the PSF kernel you need.
 
-Another way is to generate a gaussian kernel, which is what you do when you don't find the appropiate kernel database or Tiny Tim is taking too longo to calculate your kernel. The way that you can calcute it is explained below,
+Another way is to generate a gaussian kernel, which is what you do when you don't find the appropiate kernel database or Tiny Tim is taking too long to calculate your kernel. The way is explained below,
 ```python
 import from astropy.convolution import Gaussian2DKernel
 native_pixelscale = 0.0396 # arcsec/pixel
