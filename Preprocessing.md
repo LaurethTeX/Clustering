@@ -45,7 +45,11 @@ For more information review [this](http://exoplanet.as.arizona.edu/~lclose/a302/
 
 The strategy to find the FWHM is to look for your particular instrument information, in this case I'm looking for the WFC3 UVIS channel which is in [this](http://www.stsci.edu/institute/org/telescopes/Reports/ISR-TEL-2010-01) document.
 
-*Where you look?*
+**What if FWHM? (Full width at half maximum)**
+The best way to explain this is with a picture, now imagine that the function that you see in the picture below is your PSF.
+![fwhm](https://raw.githubusercontent.com/LaurethTeX/Clustering/9e5b09002afd67628b3780ac83ed9a1fd42562e1/360px-FWHM.png)
+
+**Where you look?**
 
 Check out the pages of the instrument's handbook, in this case the Wide Field Camera 3 Instrument Handbookfor Cycle 22, specifically you can find the FWHM of each wavelenght [here](http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/c06_uvis07.html#391844).
 
@@ -58,7 +62,16 @@ Transform images to the same spatial resolution
 
 For this particular image dataset the WFC3 UVIS mosaics have the native detector scale of 0.0396 arcsec/pixel, as you can see in the [webpage](http://archive.stsci.edu/prepds/wfc3ers/m83datalist.html) where you can download the images.
 
-When this mumber in hidden from you and you can't find it anywhere, you can calculate it 
+When this mumber in hidden from you and you can't find it anywhere, you can use `imagecube` and it will calculate this number for you.
+```python
+
+import imagecube
+import pyfits
+
+image = pyfits.open('yourfile.fits')
+native_pixel_scale = get_pixel_scale(image[0].header):
+
+```
 
 **Calculate the convolution kernel**
 
