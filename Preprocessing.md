@@ -127,6 +127,7 @@ mJPEG -t -2 -blue uvwide_conv_crp.fits 0s 99.999% gaussian -green halpha_conv_cr
 Organize the data
 -----------------
 
+
 ### The imagecube: Our analyzable database
 
 Since we have various images of the same target taken at different wavelenghts, we can append them into a single [FITS](http://fits.gsfc.nasa.gov/fits_wcs.html) file and get the database ready to be analized by the clustering algorithms. 
