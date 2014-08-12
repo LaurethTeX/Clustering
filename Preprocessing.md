@@ -45,7 +45,7 @@ For more information review [this](http://exoplanet.as.arizona.edu/~lclose/a302/
 
 The strategy to find the FWHM is to look for your particular instrument information, in this case I'm looking for the WFC3 UVIS channel which is in [this](http://www.stsci.edu/institute/org/telescopes/Reports/ISR-TEL-2010-01) document.
 
-**What if FWHM? (Full width at half maximum)**
+**What is FWHM? (Full width at half maximum)**
 The best way to explain this is with a picture, now imagine that the function that you see in the picture below is your PSF.
 
 ![fwhm](https://raw.githubusercontent.com/LaurethTeX/Clustering/9e5b09002afd67628b3780ac83ed9a1fd42562e1/360px-FWHM.png)
@@ -124,13 +124,16 @@ mJPEG -t -2 -blue uvwide_conv_crp.fits 0s 99.999% gaussian -green halpha_conv_cr
 
 ![cropped](https://raw.githubusercontent.com/LaurethTeX/Clustering/86cfabfbd52e54ffd98a979d7fe7fbe2b3f535e3/croppedRGB-2.jpg)
 
-The imagecube: Our analyzable database
-------------------
+Organize the data
+-----------------
+
+### The imagecube: Our analyzable database
+
 Since we have various images of the same target taken at different wavelenghts, we can append them into a single [FITS](http://fits.gsfc.nasa.gov/fits_wcs.html) file and get the database ready to be analized by the clustering algorithms. 
 The image cube in this particular case will conitain a header that cointains the conventions defined to specify the physical, or world, coordinates to be attached to each pixel of an N-dimensional image and our multiwavelength data (5000x8500x9).
 
-Get ImageCube running
------------------
+### Get ImageCube running
+
 1. Clone in desktop the [ImageCube](https://github.com/sophiathl/imagecube.git) GitHub repository
 2. Install [montage_wrapper](http://www.astropy.org/montage-wrapper/)
 
