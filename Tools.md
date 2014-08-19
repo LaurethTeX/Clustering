@@ -31,3 +31,6 @@ SciPy
 Matplotlib
 --------------
 
+The .profile file
+----------------
+You can find an example [here](https://github.com/LaurethTeX/Clustering/blob/master/.profile)
